@@ -1,0 +1,323 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserMaster.Master" AutoEventWireup="true"
+    CodeBehind="MyAccount.aspx.cs" Inherits="CyberValetGrocery.MyAccount" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .style3
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight: normal;
+            color: #000000;
+            height: 31px;
+        }
+        .style4
+        {
+            height: 31px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+   
+   
+    <asp:ScriptManager ID="script1" runat="server">
+    </asp:ScriptManager>
+    <asp:UpdatePanel ID="updatePnl1" runat="server">
+        <ContentTemplate>
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td class="formHeading">
+                        My Account
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td class="style3">
+                        Welcome &nbsp;<asp:Label ID="lblUserName" runat="server"></asp:Label>!&nbsp;(<a href="UserLogout.aspx"
+                            class="Userlink1">log out</a>)<br />
+                        <br />
+                    </td>
+                    <td class="style4">
+                    </td>
+                    <td align="center" class="style3">
+                        <strong class="star1">Account Balance:</strong>&nbsp;$<asp:Label ID="lblAccBAl" runat="server"></asp:Label>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td width="356">
+                        <!--- table for account details --->
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="356" colspan="3">
+                                    <img src="images/account_details.gif" alt="account details" width="356" height="25"
+                                        border="0" />
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <td width="10" background="images/account_left.gif">
+                                    <img src="images/account_left.gif" width="10" height="1" border="0" />
+                                </td>
+                                <td width="336">
+                                    <br />
+                                    <table cellpadding="3" cellspacing="0" border="0">
+                                        <tr valign="top">
+                                            <td width="130" class="formTextUSer">
+                                                <strong>Name:</strong>
+                                            </td>
+                                            <td width="130" class="formTextUSer">
+                                                <asp:Label ID="lblName" runat="server"></asp:Label>
+                                            </td>
+                                            <td width="96">
+                                            </td>
+                                        </tr>
+                                        <tr valign="top">
+                                            <td width="130" class="formTextUSer">
+                                                <strong>Phone:</strong>
+                                            </td>
+                                            <td width="130" class="formTextUSer">
+                                                <asp:Label ID="lblPhone" runat="server"></asp:Label>
+                                            </td>
+                                            <td width="96" class="formTextUSer">
+                                                <a href="UpdatePhoneInfo.aspx" class="linkNew1">change</a>
+                                            </td>
+                                        </tr>
+                                        <tr valign="top">
+                                            <td width="130" class="formTextUSer">
+                                                <strong>Username:</strong>
+                                            </td>
+                                            <td width="130" class="formTextUSer">
+                                                <asp:Label ID="lblEmail" runat="server"></asp:Label>
+                                            </td>
+                                            <td width="96" class="formTextUSer">
+                                                <a href="UpdateLoginInfo.aspx" class="linkNew1">change</a>
+                                            </td>
+                                        </tr>
+                                        <tr valign="top">
+                                            <td class="formTextUSer" nowrap="nowrap">
+                                                <strong>Delivery Address:</strong>
+                                            </td>
+                                            <td class="formTextUSer">
+                                                <asp:Label ID="lblAddress" runat="server"></asp:Label>
+                                                <br />
+                                                <asp:Label ID="lblCity" runat="server"></asp:Label>,
+                                                <asp:Label ID="lblState" runat="server"></asp:Label>&nbsp;&nbsp;<asp:Label ID="lblZip"
+                                                    runat="server"></asp:Label>
+                                            </td>
+                                            <td class="formTextUSer">
+                                                <a href="UpdateDeliveryAddress.aspx" class="linkNew1">change</a>
+                                            </td>
+                                        </tr>
+                                        <tr valign="top">
+                                            <td class="formTextUSer">
+                                                <strong>Billing Address:</strong>
+                                            </td>
+                                            <td class="formTextUSer">
+                                                <asp:Panel ID="pnlBillAdd" runat="server">
+                                                    <asp:Label ID="lblBillAddress" runat="server"></asp:Label>
+                                                    <br />
+                                                    <asp:Label ID="lblBillCity" runat="server"></asp:Label>,
+                                                    <asp:Label ID="lblBillState" runat="server"></asp:Label>&nbsp;&nbsp;<asp:Label ID="lblBillZip"
+                                                        runat="server"></asp:Label>
+                                                </asp:Panel>
+                                                <asp:Panel ID="pnlNoBillAdd" runat="server" Visible="false">
+                                                    <asp:Label ID="lblNoBillInfo" runat="server" CssClass="ErrorTxt1">
+                                                    </asp:Label>
+                                                </asp:Panel>
+                                            </td>
+                                            <td class="formTextUSer">
+                                                <a href="UpdateBillingAddress.aspx" class="linkNew1">change</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br />
+                                </td>
+                                <td width="10" background="images/account_right.gif">
+                                    <img src="images/account_right.gif" width="10" height="1" border="0" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <img src="images/account_bottom.gif" width="356" height="9" border="0" />
+                                </td>
+                            </tr>
+                        </table>
+                        <p />
+                        <br />
+                        <!-- past orders -->
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td width="356" colspan="3">
+                                    <img src="images/order_history2.gif" alt="order history" width="356" height="25"
+                                        border="0" />
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <td width="10" background="images/account_left.gif">
+                                    <img src="images/account_left.gif" width="10" height="1" border="0" />
+                                </td>
+                                <td width="336">
+                                    <br />
+                                    <table cellpadding="3" cellspacing="0" border="0">
+                                        <tr>
+                                            <td>
+                                                <asp:Label ID="lblNoOrder" runat="server" CssClass="ErrorTxt1" Visible="false"></asp:Label>
+                                                <asp:GridView ID="gridOrderList" runat="server" AutoGenerateColumns="False" Width="330px"
+                                                    CellPadding="0" CellSpacing="0" GridLines="None">
+                                                    <Columns>
+                                                        <asp:TemplateField Visible="false" HeaderStyle-HorizontalAlign="Left">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lblOrederId" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "orders_id")%>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Order #" HeaderStyle-HorizontalAlign="Left">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lblOrderNm" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "orders_number")%>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Order Date" HeaderStyle-HorizontalAlign="Left">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lblOrderDate" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "orderDate1")%>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Amount($)" HeaderStyle-HorizontalAlign="Left">
+                                                            <ItemTemplate>
+                                                                <%--<asp:Label ID="lblAmount" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "orders_totalfinal")%>'></asp:Label>--%>
+                                                                <asp:Label ID="lblAmount" runat="server" Text='<%# Convert.ToDecimal(Eval("orders_totalfinal")).ToString("0.00", System.Globalization.CultureInfo.InvariantCulture) %>'></asp:Label>
+                                                                </a>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="ReOrder" HeaderStyle-HorizontalAlign="Left">
+                                                            <ItemTemplate>
+                                                                <a href='orderdetails.aspx?chk=2&orderId=<%# DataBinder.Eval(Container.DataItem, "orders_id")%>'
+                                                                    class="linkNew1">ReOrder </a>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                    </Columns>
+                                                    <HeaderStyle CssClass="gridUserheading" ForeColor="#404248" />
+                                                    <AlternatingRowStyle CssClass="gridUserAlternatetext" />
+                                                    <RowStyle CssClass="gridUsertext" />
+                                                </asp:GridView>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4">
+                                                <strong><a href="viewallpast.aspx" class="Userlink1">
+                                                    <asp:Label ID="lblView" runat="server" Text="View All"></asp:Label></a></strong>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br />
+                                </td>
+                                <td width="10" background="images/account_right.gif">
+                                    <img src="images/account_right.gif" width="10" height="1" border="0" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <img src="images/account_bottom.gif" width="356" height="9" border="0" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!--- end account details --->
+                    <td width="22">
+                        &nbsp;
+                    </td>
+                    <td width="213">
+                        <table cellpadding="1" cellspacing="0" border="0" bgcolor="#e6e6e6">
+                            <tr>
+                                <td>
+                                    <asp:GridView ID="gridBalanceList" runat="server" AutoGenerateColumns="False" Width="210px"
+                                        AllowPaging="true" OnPageIndexChanging="gridBalanceList_PageIndexChanging" CellPadding="0"
+                                        CellSpacing="0" PageSize="5" GridLines="None">
+                                        <Columns>
+                                            <asp:TemplateField Visible="false">
+                                                <ItemTemplate>
+                                                    <asp:Label ID="lblTranId" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "transactions_id")%>'></asp:Label>
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                                            <asp:TemplateField HeaderText="Type">
+                                                <ItemTemplate>
+                                                    <asp:Label ID="lblTranType" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "transactions_comment")%>'></asp:Label>
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                                            <asp:TemplateField HeaderText="Date">
+                                                <ItemTemplate>
+                                                    <asp:Label ID="lblTranDate" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "Date1")%>'></asp:Label>
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                                            <asp:TemplateField HeaderText="Amount($)" ItemStyle-HorizontalAlign="Center">
+                                                <ItemTemplate>
+                                                    <asp:Label ID="lblOpnBracket" runat="server" Text="(" Visible="false"></asp:Label>
+                                                    <%--<asp:Label ID="lblTranAmount1" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "transactions_amount")%>'></asp:Label>--%>
+                                                    <asp:Label ID="lblTranAmount1" runat="server" Text='<%# Convert.ToDecimal(Eval("transactions_amount")).ToString("0.00", System.Globalization.CultureInfo.InvariantCulture) %>'></asp:Label>
+                                                    <asp:Label ID="lblClsBracket" runat="server" Text=")" Visible="false"></asp:Label>
+                                                    </a>
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                                            <asp:TemplateField Visible="false">
+                                                <ItemTemplate>
+                                                    <asp:Label ID="lblOrderId" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "orders_id")%>'></asp:Label>
+                                                    </a>
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                                            <asp:TemplateField HeaderText="Order">
+                                                <ItemTemplate>
+                                                    <asp:Label ID="lblOrderNm" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "transactions_fname")%>'></asp:Label>
+                                                    </a>
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                                        </Columns>
+                                        <HeaderStyle CssClass="gridUserheading" ForeColor="#404248" />
+                                        <AlternatingRowStyle CssClass="gridUserAlternatetext" />
+                                        <RowStyle CssClass="gridUsertext" />
+                                        <PagerStyle CssClass="pagingUsertext" ForeColor="#FFFFFF" />
+                                    </asp:GridView>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <br />
+                      <%--<table cellpadding="0" cellspacing="0" border="0" width="213px" bgcolor="#E6E6E6">
+                            <tr>
+                                <td width="213px" colspan="3">
+                                    <img src="images/myaccount_rewards.gif" alt="loyalty program" width="213" height="32"
+                                        border="0" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="5">
+                                </td>
+                                <td width="203" class="formTextUSerLoyoltyMyAccount" align="center">
+                                    
+                                       <center><a href="LoyaltyProgram.aspx" style="font-weight: bold;" class="Userlink1">What's this?</a></center></span>
+                                  
+                                    <strong>Under $100</strong>
+                                   
+                                    <asp:Image ID="imgUnderFifty" runat="server" Width="202" Height="52" border="0" />
+                                    <asp:Label ID="lblUnderFifty" runat="server"></asp:Label>
+                                    <br />
+                                    <strong>Over $100</strong>
+                                    <asp:Image ID="imgOverFifty" runat="server" Width="202" Height="52" border="0" />
+                                    <asp:Label ID="lblOverFifty" runat="server"></asp:Label>
+                                </td>
+                                <td width="5">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="213" colspan="3">
+                                    <img src="images/myaccount_rewardsbottom.gif" width="213" height="10" border="0" />
+                                </td>
+                            </tr>
+                        </table>--%>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="20px">
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+</asp:Content>

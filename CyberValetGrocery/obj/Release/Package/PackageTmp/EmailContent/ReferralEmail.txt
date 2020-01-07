@@ -1,0 +1,49 @@
+﻿<html>
+<body>
+	<table>
+	    <tr><td height="5px"></td></tr>
+		<tr>
+			<td style="font-family:Verdana;font-size:12px;">
+				Hi <em>$Friendname$</em>, 
+			</td>
+		</tr>
+	    <tr><td height="5px"></td></tr>
+		
+		<tr>
+			<td style="font-family:Verdana;font-size:12px;">
+				Your friend <em>$Username$</em> asked us to inform you about the new online grocery delivery service in your area -$companyName$
+			</td>
+		</tr>
+		
+		<tr><td height="5px"></td></tr>	
+			
+		<tr>
+		<td style="font-family:Verdana;font-size:12px;">$Message$ </td>
+		</tr>
+
+ 		<tr><td height="5px"></td></tr>	
+ 		
+		<tr>
+		<td style="font-family:Verdana;font-size:12px;">
+		$companyName$ is an online grocery delivery service allowing you to avoid the hassles of traditional grocery shopping. You can shop online and have your selections delivered to your door at the time of your choosing. With over 3,500 fresh groceries and extensive online features, $companyName$ offers the ultimate grocery shopping experience. Customers often tell us that once they experienced our service, they never wanted to visit the grocery store again
+		</td>
+		</tr>
+				
+		<tr><td height="10px"></td></tr>
+		
+		<tr>
+		<td style="font-family:Verdana;font-size:12px;">
+		The best part is, if you get your friends to order you can get FREE groceries! If you sign up and place an order, your friend $Username$ will receive $5 in account funds. For each friend that you get to order, you will also get $5. Visit $WebsitName$ to sign-up, refer your friends, and start saving time today.
+		</td>
+		</tr>
+		
+		<tr><td height="10px"></td></tr>
+		
+		<tr><td style="font-family:Verdana;font-size:12px;">Sincerely,</td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">$companyName$<br />
+                Online Store Manager<br /></td></tr>
+	
+		
+	</table>
+</body>
+</html>

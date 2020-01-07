@@ -1,0 +1,855 @@
+﻿
+a.link {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a.link:hover{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.noremal_text_white {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.welcome_heding1 {
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #cddc24;
+	text-decoration: none;
+}
+
+.welcome_heding2 {
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.noremal_text_blak {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+
+.red_heding1 {
+	font-family: Arial;
+	font-size: 28px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.red_heding2 {
+	font-family: Arial;
+	font-size: 26px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.footer {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.text {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+
+.textline {
+	font-size: 12px;
+	color: #5cc151;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration:underline;
+}
+
+
+.line {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #5cc151;
+	text-decoration: none;
+}
+
+a.footer_link {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.footer_link:hover {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.normal_text {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+
+.footer_line {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.copyright {
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.privatepolicy {
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a.privatepolicy:hover {
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.drop_down {
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	color: #13138B;
+	text-decoration: none;
+	height: 20px;
+	width: 176px;
+}
+.heding {
+	font-family: Arial;
+	font-size: 25px;
+	color: #FFFFFF;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+
+
+
+.textbox1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 1px;
+	height: 20px;
+	width: 157px;
+	border: 1px solid #999999;
+	margin-left: 5px;
+	padding-top:5px
+}
+
+.textbox1HomeZip {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 1px;
+	height: 20px;
+	width: 70px;
+	border: 1px solid #999999;
+	margin-left: 5px;
+	padding-top:5px
+}
+
+/*** New Created *********/
+
+.DropDown {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+	height: 23px;
+	width: 180px;
+	border: 1px solid #666666;
+}
+
+.DeliveryDropDown {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+	height: 23px;
+	width: 260px;
+	border: 1px solid #666666;
+
+}
+
+.DropDown1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;	
+	margin: 0px 0px 0px 5px;
+	height: 23px;
+	width: 200px;
+	border: 1px solid #aeaeae;
+	padding: 1px;
+	 padding-top:1px;
+	 color: #000000;
+}
+.DropDown2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;	
+	margin: 0px 0px 0px 5px;
+	height: 23px;
+	width: 250px;
+	border: 1px solid #aeaeae;
+	padding: 1px;
+	 padding-top:1px;
+	 color: #000000;
+}
+
+
+.Userlink1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #5cc151;
+	text-decoration:underline;	
+	background-repeat: no-repeat;
+	
+}
+.formSideLink
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #5cc151;
+}
+.formHeading
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	color:  #5cc151;
+	text-align:left;
+	
+}
+.formHeadingNew
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	color:  #5cc151;
+}
+.formHeadingText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	color:#000;
+	text-align:left;
+	padding-left:15px;
+	background-color: #e4e4e4;
+}
+
+.formHeadingTextNew
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 15px;
+	background-color: #5cc151;
+}
+
+.picktimeHeaderText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:left;
+	padding-left:15px;
+	padding-right:15px;
+	background-color: #5cc151;
+}
+
+.formTextUSer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+	
+}
+
+.formTextZipcode
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	width:150px;
+	color: #000000;
+	text-align: justify;
+	
+}
+
+.formTextUSerGrid
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+	vertical-align:text-top;
+	
+}
+
+.formTextUSerLoyoltyMyAccount
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+.formTextUSerSubTitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	color: #000000;
+	text-align: justify;
+	padding-right:20px;
+}
+.formTextSmall1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color:  #000000;
+}
+.ErrorTxt1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color:Red;
+}
+.ErrorTxtNew2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color:Red;
+}
+
+.ErrorTxtNew1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color:Red;
+}
+
+.textboxSmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 1px;
+	height: 20px;
+	width: 110px;
+	border: 1px solid #999999;
+	padding-top:5px;
+	
+}
+
+.textboxSmallNew {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 1px;
+	height: 20px;
+	width: 28px;
+	border: 1px solid #999999;
+	padding-top:5px;
+	
+}
+.star1
+{
+	color:Red;
+}
+.tableBorder  
+{
+	border: thin solid #e4e4e4;
+}
+.tableBorderPickTime
+{
+	border: thin solid #345B2f;
+}
+
+
+.buttonUser
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #5cc151;
+	text-align: center;
+	padding-left: 15px;
+	border: 1px solid #ccdb29;
+	display: block;
+	width: auto;
+	margin-right: 5px;
+	float: left;
+	padding-right: 15px;
+	height: 32px;
+	text-decoration: none;
+}
+
+.buttonUser:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #5cc151;
+	text-align: center;
+	padding-left: 15px;
+	border: 1px solid #ccdb29;
+	display: block;
+	width: auto;
+	margin-right: 5px;
+	float: left;
+	padding-right: 15px;
+	height: 32px;	
+	text-decoration: none;
+}
+.buttonUser:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #5cc151;
+	text-align: center;
+	padding-left: 15px;
+	border: 1px solid #ccdb29;
+	display: block;
+	width: auto;
+	margin-right: 5px;
+	float: left;
+	padding-right: 15px;
+	height: 32px;	
+	text-decoration: none;
+}
+
+.textMultiline
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 1px;
+	height: 100px;
+	width: 250px;
+	border: 1px solid #999999;
+	margin-left: 5px;
+
+}
+
+.textMultilineSuggest
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 1px;
+	height: 100px;
+	width: 350px;
+	border: 1px solid #999999;
+	margin-left: 5px;
+
+}
+.horizontalLine1
+{
+	
+	display:block;
+	height:1px;	
+	border-bottom:dotted 1px #666666;
+	
+}
+
+
+/******** grid heading *********/
+.gridlink1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #404248;
+	text-decoration:underline;	
+	background-repeat: no-repeat;
+	text-align:left;
+	height:30px;
+	padding-left:10px;
+}
+
+.gridUserheading{
+	background-color: #e4e4e4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #404248;
+	height:35px;
+	text-align:left;
+	
+	
+}
+
+.gridUsertext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #404248;
+	background-color:#FFFFFF;
+	text-align:left;
+	height:30px;
+	padding-left:10px;
+	
+}
+
+.gridUserAlternatetext
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #404248;
+	background-color:#f6f6f6;
+	text-align:left;
+	height:30px;
+	padding-left:10px;
+	
+}
+.gridUserBorder
+{
+  border-color:#c8c8c8;
+   border-width:1px;
+}
+
+.pagingUsertext {
+		font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration:none;
+	background-color:#5cc151;
+	text-align:right;
+	
+	
+
+	 
+}
+
+.buttonUserNew
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color:#5cc151;
+	text-align: center;
+	
+	border: 1px solid #fcd500;
+	display: block;
+	height: 32px;	
+	text-decoration: none;
+	width: 31px;
+}
+
+.buttonUserNew:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #5cc151;
+	text-align: center;
+	
+	border: 1px solid #fcd500;
+	display: block;
+	width: auto;
+	
+	height: 32px;	
+	text-decoration: none;
+}
+.buttonUserNew:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #5cc151;
+	text-align: center;
+	
+	border: 1px solid #fcd500;
+	display: block;
+	width: auto;
+	
+	height: 32px;	
+	text-decoration: none;
+}
+
+.sale_title
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	color:#000000;
+	}
+
+.sale_price
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size:20pt;
+	font-weight:bold;
+	color:#cc0000;
+	}
+
+.sale_limit
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:7pt;
+	color:#000000;
+	}
+	
+	
+	.sideLink1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #5cc151;
+	text-decoration:underline;
+	
+	
+	
+}
+
+.ProdLink1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	color: #404248;
+	text-decoration:underline;
+	
+	
+	
+}
+.LinkRed
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:Red;
+	text-decoration: underline;
+	
+	
+}
+.LinkRedNew
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+
+	color:Red;
+	
+	
+	
+}
+.sidetextbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 1px;
+	height: 15px;
+	width: 80px;
+	border: 1px solid #999999;
+	
+}
+
+.bodycss
+{
+background-image: url(../images/GroceryUBackG.jpg);	
+background-repeat: no-repeat;
+
+}
+
+.linkNew1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #345B2f;
+	text-decoration:underline;	
+	background-repeat: no-repeat;
+	
+	
+}
+.formTextPrintUser {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #040404;
+}
+.formTextSmallPrintUser {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #040404;
+}
+.formTextMasterUser {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #040404;
+}
+.border { border: thin solid #5cc151; }
+.borderblue { border: thin solid #5cc151; }
+
+
+.productcrossed
+{
+	
+	text-decoration: line-through;
+	color: #FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	
+	text-align:left;
+	height:30px;
+	
+}
+
+.borderSalesItem {
+	border: 1px solid #B9B9B9;
+	background-color: #FFFFFF;
+}
+
+.formTextShow
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #808080;
+	text-align: justify;
+}
+
+.horizontalLineNewOne
+{
+	
+	display:block;
+	height:1px;
+	width:200px;	
+	border-bottom:dotted 1px #666666;
+	vertical-align:bottom;
+	
+}

@@ -1,0 +1,606 @@
+﻿<head>
+    <title></title>
+</head>
+<body>
+ <table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td  style="border: 1px solid #c9c9c9;">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td height="82" >
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                      
+                                                                        <tr>
+                                                                        <td colspan="2" style="background-color: #73A534;font-family: Arial, Arial rounded MT Bold ;font-size: 20px;font-weight: bold;color: White;text-align: justify;">
+                                                                              CyberValetGrocery
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="2"  style="background-color: #666666;height:2px;">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td  style="height: 20px;">
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                        <tr>
+                                                                            <td align="right" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;padding-right:5px; padding-top:2px;" >
+                                                                              $lblWeekDate$
+                                                                               
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;padding-left:5px">
+                                                                              $lblEmailHeader$
+                                                                             
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td  style="background-color: #5cc151;height: 30px;border: 1px solid #818181;text-align:center;font-family: Arial, Helvetica, sans-serif;font-size: 14px;font-weight: normal;color: #FFFFFF;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;">
+                                                                    THIS WEEK SPECIALS
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td  style="background-color: #666666;height:2px;">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td bgcolor="#f6f6f6">
+                                                                
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <br />
+                                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%"  style="border: 1px solid #c9c9c9;padding:5px;">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                       
+                                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                       $imgProd1$
+                                                                                                     
+                                                                                                       
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                        $lblProdTitle1$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td  style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                    
+                                                                                                       $litProdView1$
+                                                                                                    </td>
+                                                                                                    <td  style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                      
+                                                                                                         $lblProdPrice1$
+                                                                                                         
+                                                                                                       
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                         
+                                                                                        </td>
+                                                                                        <td>
+                                                                                        
+                                                                                               <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                       $imgProd2$
+                                                                                                   
+                                                                                                       
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                        $lblProdTitle2$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                         $litProdView2$
+                                                                                                    
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                    $lblProdPrice2$                                                                                                   
+                                                                                                        
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                            
+                                                                                        </td>
+                                                                                        <td>
+                                                                                         
+                                                                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                      
+                                                                                                        $imgProd3$
+                                                                                                       
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                     
+                                                                                                       $lblProdTitle3$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                       $litProdView3$  
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                      
+                                                                                                         $lblProdPrice3$   
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                           
+                                                                                        </td>
+                                                                                        <td>
+                                                                                          
+                                                                                           <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                      
+                                                                                                       $imgProd4$  
+                                                                                                       
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                   
+                                                                                                        $lblProdTitle4$  
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                       
+                                                                                                       $litProdView4$ 
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                      
+                                                                                                      $lblProdPrice4$ 
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                              
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                       
+                                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                   
+                                                                                                        $imgProd5$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                        $lblProdTitle5$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                        $litProdView5$ 
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                        
+                                                                                                         $lblProdPrice5$ 
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                        </td>
+                                                                                        <td>
+                                                                                      
+                                                                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                       $imgProd6$
+                                                                                                       
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                      $lblProdTitle6$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                       $litProdView6$
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                     
+                                                                                                       $lblProdPrice6$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                        </td>
+                                                                                        <td>
+                                                                                         
+                                                                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                     
+                                                                                                       $imgProd7$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                     
+                                                                                                       $lblProdTitle7$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;"> 
+                                                                                                      
+                                                                                                       $litProdView7$
+                                                                                                    </td>
+                                                                                                     <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                      
+                                                                                                        $lblProdPrice7$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                        </td>
+                                                                                        <td>
+                                                                                      
+                                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                  
+                                                                                                        $imgProd8$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px"  style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                     $lblProdTitle8$
+                                                                                                       
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                       
+                                                                                                        $litProdView8$
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                       
+                                                                                                         $lblProdPrice8$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                          
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                               
+                                                                                $litViewAllSaleItems$
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                &nbsp;
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                    
+                                                                   
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                 <td  style="background-color: #5cc151;height: 30px;border: 1px solid #818181;text-align:center;font-family: Arial, Helvetica, sans-serif;font-size: 14px;font-weight: normal;color: #FFFFFF;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;">
+                                                                    FEATUERD PRODUCTS
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td  style="background-color: #666666;height:2px;">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td bgcolor="#f6f6f6">
+                                                               
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <br />
+                                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%"  style="border: 1px solid #c9c9c9;padding:5px;">
+                                                                                    <tr>
+                                                                                        <td width="25%">
+                                                                                       
+                                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                     
+                                                                                                        $imgFeat1$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                     
+                                                                                                       $lblFeatTitle1$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                       
+                                                                                                        $litFeatView1$
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                        
+                                                                                                        $lblFeatPrice1$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                           
+                                                                                        </td>
+                                                                                        <td width="25%">
+                                                                                         
+                                                                                               <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                     
+                                                                                                        $imgFeat2$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                   
+                                                                                                      $lblFeatTitle2$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                      $litFeatView2$
+                                                                                                    </td>
+                                                                                                   <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                     
+                                                                                                       $lblFeatPrice2$
+                                                                                                      
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                            
+                                                                                        </td>
+                                                                                        <td width="25%">
+                                                                                        
+                                                                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                      
+                                                                                                       $imgFeat3$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                       $lblFeatTitle3$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                       $litFeatView3$
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                    
+                                                                                                        $lblFeatPrice3$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                           
+                                                                                        </td>
+                                                                                        <td width="25%">
+                                                                                   
+                                                                                           <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                    
+                                                                                                        $imgFeat4$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                       $lblFeatTitle4$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                        $litFeatView4$
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                      
+                                                                                                     $lblFeatPrice4$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                              
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="25%">
+                                                                                        
+                                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                     
+                                                                                                       $imgFeat5$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                       $lblFeatTitle5$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                       $litFeatView5$
+                                                                                                    </td>
+                                                                                                   <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                    
+                                                                                                       $lblFeatPrice5$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                           
+                                                                                        </td>
+                                                                                        <td width="25%">
+                                                                                        
+                                                                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                     
+                                                                                                        $imgFeat6$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                     
+                                                                                                      $lblFeatTitle6$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                     
+                                                                                                   $litFeatView6$
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                     
+                                                                                                       $lblFeatPrice6$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                             
+                                                                                        </td>
+                                                                                        <td width="25%">
+                                                                                         
+                                                                                             <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                      
+                                                                                                       $imgFeat7$
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                        $lblFeatTitle7$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                      
+                                                                                                         $litFeatView7$
+                                                                                                    </td>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                       
+                                                                                                       $lblFeatPrice7$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                           
+                                                                                        </td>
+                                                                                        <td width="25%">
+                                                      
+                                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                                <tr>
+                                                                                                    <td align="left" valign="middle" width="50px">
+                                                                                                      
+                                                                                                 
+                                                                                                       $imgFeat8$
+                                                                                                       
+                                                                                                    </td>
+                                                                                                    <td align="left" valign="middle" width="100px" style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;">
+                                                                                                      
+                                                                                                        $lblFeatTitle8$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 10px;">
+                                                                                                       
+                                                                                                        $litFeatView8$
+                                                                                                    </td>
+                                                                                                   <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #FF0000;">
+                                                                                                       
+                                                                                                         $lblFeatPrice8$
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                            
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        
+                                                                    </table>
+                                                                    
+                                                                    
+                                                                </td>
+                                                            </tr>
+                                                             
+                                                            
+                                                            <tr>
+                                                            <td>
+                                                            
+                                                            </td>
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td>
+                                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                        <tr>
+                                                                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;padding-left:5px">
+                                                                              
+                                                                                $lblFooterText$
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td  style="background-color: #5cc151;height: 30px;border: 1px solid #818181;text-align:center;font-family: Arial, Helvetica, sans-serif;font-size: 14px;font-weight: normal;color: #FFFFFF;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;">
+                                                                    We look forward to delivering to you!
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                        <tr>
+                                                                            <td style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-weight: normal;color: #040404;" align="center">
+                                                                                If you would like to un-subscribe to this newsletter please contact us at
+                                                                                
+                                                                                $litcustomerservice$                                                                      
+                                                                                  with UNSUBSCRIBE in the email subject. But
+                                                                                please don't because you will be missing out on some great specials!
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+</body>

@@ -1,0 +1,21 @@
+﻿<html>
+<body>
+	<table>
+	    <tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">Hello, </td></tr>
+	    <tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">$parentName$ recently attempted to deposit money into a $companyName$ account for you. Unfortunately, you must be a registered member for the funds to go through. To register with $companyName$, visit $webSiteLongUrl$  and follow the sign-up steps.</td></tr>
+		<tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">
+		After you become a member, contact $parentName$ and ask them to deposit funds again. When the funds are deposited you will be able to withdraw from your account for $companyName$ purchases anytime you wish.</td></tr>
+		<tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">$companyName$ is an online grocery delivery store. As a customer, you can do all your grocery shopping online and have your order brought to your door at the time you choose! With over 4,000 fresh groceries and extensive online features, $companyName$ offers the ultimate grocery shopping experience.</td></tr>
+		
+		<tr><td height="10px"></td></tr>		
+		<tr><td style="font-family:Verdana;font-size:12px;">Sincerely,</td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">The $companyName$ Team</td></tr>
+	
+		
+	</table>
+</body>
+</html>

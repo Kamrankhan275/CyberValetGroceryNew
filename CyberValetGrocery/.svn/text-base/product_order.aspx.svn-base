@@ -1,0 +1,375 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserMaster.Master" AutoEventWireup="true"
+    CodeBehind="product_order.aspx.cs" Inherits="CyberValetGrocery.product_order" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+     
+    <asp:ScriptManager ID="script1" runat="server">
+    </asp:ScriptManager>
+    <asp:UpdatePanel ID="updatePnl1" runat="server">
+        <ContentTemplate>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td class="formHeading" style="padding-left: 10px;">
+                        <asp:Label ID="lblHead" runat="server" Text="Your Shopping Cart"></asp:Label>&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 10px;">
+                        <asp:Label ID="lblCartEmpty" runat="server" CssClass="ErrorTxt1" Visible="false"></asp:Label>
+                        <asp:Panel ID="pnlCart" runat="server">
+                            <table>
+                                <tr>
+                                    <td colspan="2" align="left">
+                                        <asp:GridView ID="gridShopList" runat="server" AutoGenerateColumns="False" Width="600px"
+                                            GridLines="None" CellPadding="0" CellSpacing="0" HeaderStyle-CssClass="">
+                                            <Columns>
+                                                <asp:TemplateField Visible="false" HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <asp:Label ID="lblShopProductId" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_id")%>'></asp:Label>
+                                                        <asp:Label ID="lblProductImage2" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_image2")%>'></asp:Label>
+                                                        <asp:Label ID="lblProdDesc" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_description")%>'></asp:Label>
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                                <asp:TemplateField HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <asp:CheckBox ID="chkId" runat="server" />
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                                <asp:TemplateField HeaderText="Image" ItemStyle-Height="45" ItemStyle-Width="45" HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <%-- <asp:Panel ID="pnlImg2" runat="server">
+                                                            <a href="javascript:void();" class="jkimagelarge" title='/Product/<%#Eval("product_image2")%>'
+                                                                onmouseover="doTooltip(event,0)" onmouseout="hideTip()">
+                                                                <asp:Image ID="imgShopProduct2" runat="server" ImageUrl='<%#Thumbnail(DataBinder.Eval(Container.DataItem,"product_image").ToString()) %>' />
+                                                            </a>
+                                                        </asp:Panel>--%>
+                                                        <%-- <asp:Panel ID="pnlNoImg" runat="server">
+                                                            <a href="javascript:void();" class="jkimagelarge" title='/Product/<%#Eval("product_image")%>'
+                                                                onmouseover="doTooltip(event,0)" onmouseout="hideTip()">
+                                                                <asp:Image ID="imgShopProduct" runat="server" ImageUrl='<%#Thumbnail(DataBinder.Eval(Container.DataItem,"product_image").ToString()) %>' />
+                                                           </a>
+                                                        </asp:Panel>--%>
+                                                        <asp:Panel ID="pnlImg2" runat="server">
+                                                            <a href="#" onclick='openProductDetailsPopUp(<%# DataBinder.Eval(Container.DataItem, "product_id")%>)'>
+                                                                <asp:Image ID="imgShopProduct2" runat="server" ImageUrl='<%#Thumbnail(DataBinder.Eval(Container.DataItem,"product_image").ToString()) %>' />
+                                                            </a>
+                                                        </asp:Panel>
+                                                        <asp:Panel ID="pnlNoImg" runat="server">
+                                                            <a href="#" onclick='openProductDetailsPopUp(<%# DataBinder.Eval(Container.DataItem, "product_id")%>)'>
+                                                                <asp:Image ID="imgShopProduct" runat="server" ImageUrl='<%#Thumbnail(DataBinder.Eval(Container.DataItem,"product_image").ToString()) %>' />
+                                                            </a>
+                                                        </asp:Panel>
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                                <asp:TemplateField HeaderText="Product" SortExpression="product_title" HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <asp:Panel ID="pnlDescImg2" runat="server">
+                                                            <a href="#" onclick='openProductDetailsPopUp(<%# DataBinder.Eval(Container.DataItem, "product_id")%>)'
+                                                                class="ProdLink1">
+                                                                <asp:Label ID="lblShopTitle" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_title")%>'></asp:Label>
+                                                            </a>
+                                                        </asp:Panel>
+                                                        <asp:Panel ID="PnlNoDescImg" runat="server">
+                                                            <asp:Label ID="lblShopTitle1" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_title")%>'></asp:Label>
+                                                        </asp:Panel>
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                                <asp:TemplateField HeaderText="Size" HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <asp:Label ID="lblShopSize" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_size")%>'></asp:Label>
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                                <asp:TemplateField HeaderText="Price($)" HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <%--<asp:Label ID="lblShopPrice" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "productlink_price")%>'></asp:Label>--%>
+                                                        <asp:Label ID="lblShopPrice" runat="server" Text='<%# Convert.ToDecimal(Eval("productlink_price")).ToString("0.00", System.Globalization.CultureInfo.InvariantCulture) %>'></asp:Label>
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                                <asp:TemplateField HeaderText="Quantity" HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <asp:Panel ID="pnlShopQtyErr" runat="server" Visible="false">
+                                                            <asp:Label ID="lblErrQty" runat="server" CssClass="ErrorTxtNew1" Visible="false"> </asp:Label><br />
+                                                        </asp:Panel>
+                                                        <asp:TextBox ID="txtShopQty" runat="server" CssClass="textboxSmallNew" Text='<%# DataBinder.Eval(Container.DataItem, "Qty")%>'
+                                                            MaxLength="3"></asp:TextBox>
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                            </Columns>
+                                            <PagerStyle CssClass="pagingUsertext" ForeColor="#FFFFFF" />
+                                            <HeaderStyle CssClass="gridUserheading" ForeColor="#404248" />
+                                            <AlternatingRowStyle CssClass="gridUserAlternatetext" />
+                                            <RowStyle CssClass="gridUsertext" />
+                                        </asp:GridView>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <asp:Button ID="btnUpdate" runat="server" CssClass="buttonUser" Text="Update" OnClick="btnUpdate_Click"
+                                                        CausesValidation="false" />
+                                                </td>
+                                                <td>
+                                                    <asp:Button ID="btnDelete" runat="server" CssClass="buttonUser" Text="Delete" OnClick="btnDelete_Click"
+                                                        CausesValidation="false" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="formTextUSer" style="padding-left: 10px;" valign="top">
+                                        <table>
+                                            <tr>
+                                                <td style="padding-left: 2px;" align="right">
+                                                    <strong>
+                                                        <asp:Label ID="lblSubTot" runat="server" Text="Sub Total:"></asp:Label></strong>
+                                                </td>
+                                                <td style="padding-left: 2px;">
+                                                    <asp:Label ID="lblSign" runat="server" Text="$"></asp:Label>
+                                                    <asp:Label ID="lblSubTotVal" runat="server"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <strong>
+                                                        <asp:Label ID="lblTax" runat="server" Text="Tax"></asp:Label></strong>
+                                                </td>
+                                                <td style="padding-left: 2px;">
+                                                    <asp:Label ID="lblSign1" runat="server" Text="$"></asp:Label>
+                                                    <asp:Label ID="lblTaxVal" runat="server"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <strong>
+                                                        <asp:Label ID="lblDeliveryFee" runat="server" Text="Delivery Fee"></asp:Label></strong>
+                                                </td>
+                                                <td style="padding-left: 2px;">
+                                                    <asp:Label ID="lblSign2" runat="server" Text="$"></asp:Label>
+                                                    <asp:Label ID="lblDeliveryFeeTot" runat="server"></asp:Label>
+                                                    <%--<a href="DeliveryInfo.aspx" class="Userlink1">see more</a>--%>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <strong>
+                                                        <asp:Label ID="lblSodaFee" runat="server" Text="Soda Deposit"></asp:Label></strong>
+                                                </td>
+                                                <td style="padding-left: 2px;">
+                                                    <asp:Label ID="lblSodaSign" runat="server" Text="$"></asp:Label>
+                                                    <asp:Label ID="lblSodaDepFeeTot" runat="server"></asp:Label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <span class="horizontalLine1"></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <strong>
+                                                        <asp:Label ID="lblTot" runat="server" Text="Total"></asp:Label></strong>
+                                                </td>
+                                                <td style="padding-left: 2px;">
+                                                    <asp:Label ID="lblSign3" runat="server" Text="$"></asp:Label>
+                                                    <asp:Label ID="lblTotVal" runat="server"></asp:Label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="right" style="padding-right: 20px;" valign="top">
+                                        <table cellpadding="0" cellspacing="0" border="0" bgcolor="#e6e6e6">
+                                            <tr>
+                                                <td>
+                                                    <img src="images/coupon_box.gif" alt="coupon code" width="196" height="23" border="0" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <span class="formTextUSer">&nbsp;Redeem your coupon and
+                                                        <br />
+                                                        promotional codes here:&nbsp;</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                        <tr>
+                                                            <td align="left" colspan="2">
+                                                                <asp:ValidationSummary ID="ValidationSummary1" runat="server" class="ErrorTxtNew1" />
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="padding-left:10px;padding-right:10px;">
+                                                                <asp:TextBox ID="txtCouponCode" runat="server" CssClass="textboxSmall" MaxLength="12"></asp:TextBox><br />
+                                                                <%-- <span class="formTextSmall1" style="padding-left: 3px;">(USE ALL CAPS)</span>--%>
+                                                                <asp:RequiredFieldValidator ID="rfvCouponName" runat="server" ControlToValidate="txtCouponCode"
+                                                                    ErrorMessage="Coupon code is required" ForeColor="#D7F0EE" Text="*"></asp:RequiredFieldValidator>
+                                                                <%--<asp:RegularExpressionValidator ID="revCoupon" runat="server" ControlToValidate="txtCouponCode"
+                                                                    ErrorMessage="All letters should be in capital " ForeColor="#D7F0EE" Text="*"
+                                                                    ValidationExpression="[A-Z0-9]+"></asp:RegularExpressionValidator>--%>
+                                                            </td>
+                                                            <td align="left" valign="top">
+                                                                <asp:Button ID="btnGo" runat="server" Text="Go" CssClass="buttonUserNew" OnClick="btnGo_Click" />
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="left">
+                                        <asp:ImageButton ID="imgCheck" runat="server" ImageUrl="images/proceed_checkout.gif"
+                                            CausesValidation="false" OnClick="imgCheck_Click" />
+                                        <span style="padding-left: 10px;">
+                                            <asp:ImageButton ID="imgSaveList" runat="server" ImageUrl="images/save_list.gif"
+                                                OnClick="imgSaveList_Click" CausesValidation="false" />
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="10px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="left">
+                                        <asp:Label ID="lblMsg" runat="server" CssClass="ErrorTxt1"></asp:Label>
+                                        <asp:Panel ID="pnlSuggestProd" runat="server">
+                                            <asp:Label ID="lblMsg1" runat="server" CssClass="ErrorTxt1"></asp:Label>
+                                            <asp:Label ID="lblBefore" runat="server" Text="Before you check out, may we also suggest..."
+                                                CssClass="formHeading"></asp:Label>
+                                            <br />
+                                            <asp:GridView ID="gridProductList" runat="server" AutoGenerateColumns="False" Width="600px"
+                                                GridLines="None" PageSize="10" CellPadding="0" CellSpacing="0" AllowSorting="True"
+                                                OnSorting="gridProductList_Sorting" OnRowCommand="gridProductList_OnRowCommand">
+                                                <Columns>
+                                                    <asp:TemplateField Visible="false" HeaderStyle-HorizontalAlign="Left">
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="lblProductId" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_id")%>'></asp:Label>
+                                                            <asp:Label ID="lblSuggestProdDesc" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_description")%>'></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Image" ItemStyle-Height="45" ItemStyle-Width="45" HeaderStyle-HorizontalAlign="Left">
+                                                        <ItemTemplate>
+                                                            <%--<a href="#" onclick='openProductDetailsPopUp(<%# DataBinder.Eval(Container.DataItem, "product_id")%>)'>
+                                                                <asp:Image ID="imgProduct" runat="server" ImageUrl='<%#Thumbnail(DataBinder.Eval(Container.DataItem,"product_image").ToString()) %>' />
+                                                            </a>--%>
+                                                            <asp:Panel ID="pnlSuggestImg2" runat="server">
+                                                                <a href="#" onclick='openProductDetailsPopUp(<%# DataBinder.Eval(Container.DataItem, "product_id")%>)'>
+                                                                    <asp:Image ID="imgProduct2" runat="server" ImageUrl='<%#Thumbnail(DataBinder.Eval(Container.DataItem,"product_image").ToString()) %>' />
+                                                                </a>
+                                                            </asp:Panel>
+                                                            <asp:Panel ID="pnlNoSuggestImg" runat="server">
+                                                                <a href="#" onclick='openProductDetailsPopUp(<%# DataBinder.Eval(Container.DataItem, "product_id")%>)'>
+                                                                    <asp:Image ID="imgProduct" runat="server" ImageUrl='<%#Thumbnail(DataBinder.Eval(Container.DataItem,"product_image").ToString()) %>' />
+                                                                </a>
+                                                            </asp:Panel>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Product Name" SortExpression="product_title" HeaderStyle-HorizontalAlign="Left">
+                                                        <ItemTemplate>
+                                                            <asp:Panel ID="pnlSugestDescImg2" runat="server">
+                                                                <a href="#" onclick='openProductDetailsPopUp(<%# DataBinder.Eval(Container.DataItem, "product_id")%>)'
+                                                                    class="ProdLink1">
+                                                                    <asp:Label ID="lblTitle" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_title")%>'></asp:Label>
+                                                                </a>
+                                                            </asp:Panel>
+                                                            <asp:Panel ID="PnlSugestNoDescImg" runat="server">
+                                                                <asp:Label ID="lblTitle1" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_title")%>'></asp:Label>
+                                                            </asp:Panel>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Size" HeaderStyle-HorizontalAlign="Left">
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="lblSize" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "product_size")%>'></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Price($)" HeaderStyle-HorizontalAlign="Left">
+                                                        <ItemTemplate>
+                                                            <%--<asp:Label ID="lblPrice" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "productlink_price")%>'></asp:Label>--%>
+                                                            <asp:Label ID="lblPrice" runat="server" Text='<%# Convert.ToDecimal(Eval("productlink_price")).ToString("0.00", System.Globalization.CultureInfo.InvariantCulture) %>'></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Qty" HeaderStyle-HorizontalAlign="Left">
+                                                        <ItemTemplate>
+                                                            <asp:Panel ID="pnlSuggQtyErr" runat="server" Visible="false">
+                                                                <asp:Label ID="lblErrMsg" runat="server" CssClass="ErrorTxtNew1" Visible="false"></asp:Label><br />
+                                                            </asp:Panel>
+                                                            <asp:TextBox ID="txtQty" runat="server" CssClass="textboxSmallNew" MaxLength="3" Text="1"></asp:TextBox>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Add" HeaderStyle-HorizontalAlign="Left">
+                                                        <ItemTemplate>
+                                                            <asp:ImageButton ID="btnAdd" runat="server" ImageUrl="images/AddIcon.png" Width="16"
+                                                                Height="16" border="0" CommandName="AddQty" CommandArgument='<%# Eval("product_id") %>'
+                                                                CausesValidation="false" />
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                </Columns>
+                                                <HeaderStyle CssClass="gridUserheading" ForeColor="#404248" />
+                                                <AlternatingRowStyle CssClass="gridUserAlternatetext" />
+                                                <RowStyle CssClass="gridUsertext" />
+                                            </asp:GridView>
+                                        </asp:Panel>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </asp:Panel>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 10px;">
+                        <asp:Button ID="btnContinue" runat="server" CssClass="buttonUser" Text="Continue Shopping"
+                            OnClick="btnContinue_Click" CausesValidation="false" />
+                    </td>
+                </tr>
+                <tr>
+                    <td height="10px">
+                    </td>
+                </tr>
+            </table>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+</asp:Content>

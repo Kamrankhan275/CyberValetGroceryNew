@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cybervaletgrocery/!svn/ver/140/trunk/CyberValetGrocery/CyberValetGrocery/Class
+END
+DBQuery.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/cybervaletgrocery/!svn/ver/140/trunk/CyberValetGrocery/CyberValetGrocery/Class/DBQuery.cs
+END
+PasswordRestrictions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Class/PasswordRestrictions.cs
+END
+AppConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/140/trunk/CyberValetGrocery/CyberValetGrocery/Class/AppConstants.cs
+END
+CSVReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cybervaletgrocery/!svn/ver/139/trunk/CyberValetGrocery/CyberValetGrocery/Class/CSVReader.cs
+END
+EmailGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Class/EmailGenerator.cs
+END
+DataValidator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Class/DataValidator.cs
+END
+DbProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cybervaletgrocery/!svn/ver/140/trunk/CyberValetGrocery/CyberValetGrocery/Class/DbProvider.cs
+END
+BaseProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Class/BaseProvider.cs
+END
+PDTHolder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Class/PDTHolder.cs
+END
+DropdownProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/129/trunk/CyberValetGrocery/CyberValetGrocery/Class/DropdownProvider.cs
+END

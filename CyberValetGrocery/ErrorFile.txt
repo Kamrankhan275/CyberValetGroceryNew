@@ -1,0 +1,12 @@
+*************************************
+10/19/2016 8:00:35 AM
+The underlying connection was closed: An unexpected error occurred on a send.
+   at webresponce.CyberValetGrocery.authorizenet.transmit() in D:\Richard\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\webresponce\webresponce.vb:line 168
+   at CyberValetGrocery.payment.AuthorizePayment(String strOrdPayType) in D:\Richard\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\payment.aspx.cs:line 502
+*************************************
+*************************************
+10/19/2016 8:00:57 AM
+The underlying connection was closed: An unexpected error occurred on a send.
+   at webresponce.CyberValetGrocery.authorizenet.transmit() in D:\Richard\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\webresponce\webresponce.vb:line 168
+   at CyberValetGrocery.payment.AuthorizePayment(String strOrdPayType) in D:\Richard\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\CyberValetGrocery\payment.aspx.cs:line 502
+*************************************

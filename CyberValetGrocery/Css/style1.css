@@ -1,0 +1,171 @@
+﻿.header {
+	background-color: #5cc151;
+	margin: 0px;
+	padding: 0px;
+}
+
+.toplink{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	font-style: normal;
+	line-height: normal;
+}
+a.toplink:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a30000;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: underline;
+	padding-left: 7px;
+}
+a.toplink:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a30000;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: underline;
+	padding-left: 7px;
+}
+.heading1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #9d4a1a;
+}
+.heading2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #9d4a1a;
+}
+a.toplink:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: none;
+	padding-left: 7px;
+}.pagecontent
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #a31f1f;
+	font-style: normal;
+	line-height: normal;
+}
+.Content
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 17px;
+}
+
+
+
+
+
+.footerlink
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #a31f1f;
+	text-decoration: none;
+}
+a.footerlink:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #a31f1f;
+	text-decoration: none;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+
+a.footerlink:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #a30000;
+	font-style: normal;
+	
+
+	padding-left: 4px;
+}
+
+.FooterText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	font-style: normal;
+	line-height: normal;
+}
+.SlectBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	width: 147px;
+}
+
+
+
+
+
+.FooterLinkNew
+{
+	
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	font-style: normal;
+	line-height: normal;	
+	font-family: Arial, Helvetica, sans-serif;
+	color: #a31f1f;
+}
+
+
+
+.toplinkNew{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	font-style: normal;
+	line-height: normal;
+}
+a.toplinkNew:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a30000;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: underline;
+
+}
+a.toplinkNew:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a30000;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: underline;
+
+}

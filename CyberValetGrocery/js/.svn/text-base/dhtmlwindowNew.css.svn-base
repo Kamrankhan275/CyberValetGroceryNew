@@ -1,0 +1,117 @@
+.dhtmlwindowNew{
+position: absolute;
+
+visibility: hidden;
+
+background-color:Transparent ;
+
+
+ /* border-bottom-right-radius: 10em;
+	 border-bottom-left-radius: 10em;
+	 border-top-right-radius: 10em;
+	border-top-left-radius: 10em;*/
+
+
+
+}
+
+.box_text
+{
+	 font-family:Verdana;
+	 font-size:13px;
+	  color:White;
+	 text-decoration:none;
+	 font-weight:normal;
+}
+
+
+.drag-handle{ /*CSS for Drag Handle*/
+
+padding: 1px;
+text-indent: 3px;
+font: bold 14px Arial;
+background-color:gray;
+color: white;
+
+overflow: hidden;
+width: auto;
+/*filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;*/
+filter:alpha(opacity=50);
+		-moz-opacity:.50;
+		opacity:.50;
+}
+
+.drag-handle .drag-controls{ /*CSS for controls (min, close etc) within Drag Handle*/
+
+
+padding-left:18px;
+cursor: hand;
+cursor: pointer;
+}
+
+* html .drag-handle{ /*IE6 and below CSS hack. Width must be set to 100% in order for opaque title bar to render*/
+width: 100%;
+}
+
+
+.drag-contentarea{ /*CSS for Content Display Area div*/
+/*border-top: 1px solid brown;*/
+background-color: gray;
+color: black;
+padding-top:50px;
+/*height: 150px;*/
+padding: 2px;
+overflow: auto;
+}
+
+.drag-statusarea{ /*CSS for Status Bar div (includes resizearea)*/
+border-top: 1px solid gray;
+background-color:white;
+height: 13px; /*height of resize image*/
+}
+
+
+.drag-resizearea{ /*CSS for Resize Area itself*/
+float: right;
+width: 13px; /*width of resize image*/
+height: 13px; /*height of resize image*/
+cursor: nw-resize;
+font-size: 0;
+}
+
+
+.closeclass
+{
+background-color :Gray;
+height:20px;
+
+ 
+}
+
+
+
+/* rounded corner*/
+
+.dhtmlwindowNew .t {position:relative; height:5px;}
+.dhtmlwindowNew .b {position:relative; height:5px;  }
+.dhtmlwindowNew .t .c1 {margin:0px 5px; height:1px; overflow:hidden; background:gray; border-top :1px solid Black;}
+.dhtmlwindowNew .t .c2 {position:absolute; top:1px; left:3px; width:5px; height:1px; overflow:hidden; background:gray;border-left:1px solid Black;border-right:1px solid Black;}
+.dhtmlwindowNew .t .c3 {position:absolute; top:2px; left:2px; width:4px; height:1px; overflow:hidden; background:gray;border-left:1px solid Black;border-right:1px solid Black;}
+.dhtmlwindowNew .t .c4 {position:absolute; top:3px; left:1px; width:4px; height:2px; overflow:hidden; background:gray;border-left:1px solid Black;border-right:1px solid Black;}
+.dhtmlwindowNew .t .c5 {position:absolute; top:1px; right:3px; width:701px; height:1px; overflow:hidden; background:gray;border-left:1px solid Black;border-right:1px solid Black;}
+.dhtmlwindowNew .t .c6 {position:absolute; top:2px; right:2px; width:703px; height:1px; overflow:hidden; background:gray;border-left:1px solid Black;border-right:1px solid Black;}
+.dhtmlwindowNew .t .c7 {position:absolute; top:3px; right:1px; width:706px; height:4px; overflow:hidden; background:gray;border-right:1px solid Black;border-left:1px solid Black;}
+.dhtmlwindowNew .b .c1 {position:absolute; top:0px; left:1px; width:706px; height:2px; overflow:hidden; background:gray;border-left:1px solid Black;}
+.dhtmlwindowNew .b .c2 {position:absolute; top:2px; left:2px; width:703px; height:1px; overflow:hidden; background:gray;border-left:1px solid Black;}
+.dhtmlwindowNew .b .c3 {position:absolute; top:3px; left:3px; width:701px; height:1px; overflow:hidden; background:gray;border-left:1px solid Black;border-right:1px solid Black;}
+.dhtmlwindowNew .b .c4 {position:absolute; top:0px; right:1px; width:4px; height:2px; overflow:hidden; background:gray;border-right:1px solid Black;}
+.dhtmlwindowNew .b .c5 {position:absolute; top:2px; right:2px; width:4px; height:1px; overflow:hidden; background:gray;border-right:1px solid Black;}
+.dhtmlwindowNew .b .c6 {position:absolute; top:3px; right:3px; width:5px; height:1px; overflow:hidden; background:gray;border-right:1px solid Black;}
+.dhtmlwindowNew .b .c7 {margin:0px 5px; height:4px; overflow:hidden;  border-bottom :1px solid Black;}
+/*.dhtmlwindowNew .cont .empty {height:0px; overflow:hidden;}
+.dhtmlwindowNew .cont {overflow:hidden; padding:0px 10px; border-left:1px solid gray; border-right:1px solid gray; background:url(’..imaqes/bg.gif’) top left repeat-x;}*/
+
+
+

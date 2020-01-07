@@ -1,0 +1,1859 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cybervaletgrocery/!svn/ver/139/trunk/CyberValetGrocery/CyberValetGrocery/Admin
+END
+AdminLogin.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AdminLogin.Master.cs
+END
+admin_couponreport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_couponreport.aspx
+END
+EditAisle.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditAisle.aspx.cs
+END
+admin_DeliveryInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_DeliveryInfo.aspx.cs
+END
+EditNewsletterSale.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditNewsletterSale.aspx.cs
+END
+EditShelves.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/17/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditShelves.aspx
+END
+EditTransactions.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditTransactions.aspx.designer.cs
+END
+admin_category.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category.aspx
+END
+admin_UserReport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_UserReport.aspx.designer.cs
+END
+ViewUserOrderInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewUserOrderInfo.aspx.cs
+END
+ViewOrderReportDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewOrderReportDetail.aspx.cs
+END
+EditEmployee.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditEmployee.aspx.cs
+END
+ShoppingCartVariables.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ShoppingCartVariables.aspx
+END
+admin_zipcodes.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_zipcodes.aspx.designer.cs
+END
+ViewSearchReport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSearchReport.aspx
+END
+AddDeliveryDate.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddDeliveryDate.aspx.designer.cs
+END
+NewLetterPopup.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cybervaletgrocery/!svn/ver/132/trunk/CyberValetGrocery/CyberValetGrocery/Admin/NewLetterPopup.aspx.designer.cs
+END
+Newsletter.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Newsletter.aspx.cs
+END
+SideScript.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/SideScript.ascx.cs
+END
+EditDeliInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditDeliInfo.aspx.cs
+END
+admin_newsletter.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_newsletter.aspx.cs
+END
+PaymentOption.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/PaymentOption.aspx.designer.cs
+END
+admin_orders.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_orders.aspx.designer.cs
+END
+ViewSalesInformation.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSalesInformation.aspx.designer.cs
+END
+PopupScript.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/PopupScript.ascx
+END
+UserDetailInformation.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserDetailInformation.aspx.cs
+END
+index.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cybervaletgrocery/!svn/ver/137/trunk/CyberValetGrocery/CyberValetGrocery/Admin/index.aspx.cs
+END
+EditTransactions.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditTransactions.aspx
+END
+ViewOrdersDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewOrdersDetail.aspx.cs
+END
+ViewDetailCouponReport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewDetailCouponReport.aspx.designer.cs
+END
+thumbnailAisileimage.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailAisileimage.aspx.designer.cs
+END
+DeliverySchedulePrint.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/DeliverySchedulePrint.aspx.cs
+END
+AdminMasterPage.Master
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AdminMasterPage.Master
+END
+admin_UserReport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_UserReport.aspx
+END
+admin_TodaysDelivery.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_TodaysDelivery.aspx.cs
+END
+admin_product_report.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_product_report.aspx
+END
+ViewProductdDetails.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProductdDetails.aspx.designer.cs
+END
+AddDeliveryDate.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddDeliveryDate.aspx
+END
+UserOrderDeatilsInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserOrderDeatilsInfo.aspx
+END
+PaymentOption.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/PaymentOption.aspx
+END
+admin_orders.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_orders.aspx
+END
+admin_category2.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category2.aspx
+END
+EditZip.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditZip.aspx
+END
+EditCoupon.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditCoupon.aspx.designer.cs
+END
+AddCoupon.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddCoupon.aspx
+END
+EditZip.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditZip.aspx.cs
+END
+EditCoupon.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditCoupon.aspx.cs
+END
+DeliverySchedulePrint.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/DeliverySchedulePrint.aspx
+END
+admin_coupon.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_coupon.aspx.cs
+END
+admin_orderreport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_orderreport.aspx
+END
+EditTodaysDelivery.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditTodaysDelivery.aspx.cs
+END
+admin_deliveryreminder.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_deliveryreminder.aspx.designer.cs
+END
+ViewCustomerTransactions.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewCustomerTransactions.aspx
+END
+admin_product_report.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_product_report.aspx.cs
+END
+AddEmployee.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddEmployee.aspx
+END
+admin_employee.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_employee.aspx.designer.cs
+END
+thumbnailTopAisleimage.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailTopAisleimage.aspx.designer.cs
+END
+admin_product.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_product.aspx.designer.cs
+END
+AddEmployee.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddEmployee.aspx.cs
+END
+index3.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/index3.aspx.cs
+END
+ViewAdminDepositors.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewAdminDepositors.aspx.cs
+END
+ViewShoppingListDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewShoppingListDetail.aspx.designer.cs
+END
+admin_DeliveryInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_DeliveryInfo.aspx
+END
+EditNewsletterSale.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditNewsletterSale.aspx
+END
+EditTodaysDelivery.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditTodaysDelivery.aspx
+END
+TransactionsDetails.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/TransactionsDetails.aspx.designer.cs
+END
+EditTransactions.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditTransactions.aspx.cs
+END
+AddSales.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddSales.aspx.designer.cs
+END
+admin_category.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category.aspx.designer.cs
+END
+UserOrderDeatilsPrint.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/9/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserOrderDeatilsPrint.aspx.cs
+END
+CustomerTransactionsDetails.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/CustomerTransactionsDetails.aspx.designer.cs
+END
+EditAisleTopAisle.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditAisleTopAisle.aspx
+END
+UserDetailInformation.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserDetailInformation.aspx
+END
+admin_newsletter.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_newsletter.aspx.designer.cs
+END
+index.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/index.aspx
+END
+ViewSavedListUserInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSavedListUserInfo.aspx.cs
+END
+admin_users.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_users.aspx
+END
+ViewProdcutReport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProdcutReport.aspx.designer.cs
+END
+admin_newsletter_sale.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_newsletter_sale.aspx.designer.cs
+END
+admin_coupon.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_coupon.aspx.designer.cs
+END
+AddNewsletterSale.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddNewsletterSale.aspx.cs
+END
+TransactionsDetails.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/TransactionsDetails.aspx
+END
+ViewAllNewsSaleDetails.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewAllNewsSaleDetails.aspx.cs
+END
+admin_sales.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_sales.aspx
+END
+AdminMasterPage.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AdminMasterPage.Master.designer.cs
+END
+AddSales.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddSales.aspx.cs
+END
+EditUser.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditUser.aspx
+END
+AddShelves.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/16/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddShelves.aspx.cs
+END
+ViewDeliveryDateInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewDeliveryDateInfo.aspx
+END
+admin_employee.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_employee.aspx.cs
+END
+Viewdeliveryschedule.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Viewdeliveryschedule.aspx
+END
+thumbnailTopAisleimage.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailTopAisleimage.aspx.cs
+END
+ViewDeliveryDateInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewDeliveryDateInfo.aspx.cs
+END
+Newsletter.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/133/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Newsletter.aspx
+END
+SideScript.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/SideScript.ascx
+END
+UserOrderDeatilsPrint.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/9/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserOrderDeatilsPrint.aspx
+END
+AdminLogin.Master
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AdminLogin.Master
+END
+CustomerTransactionsDetails.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/CustomerTransactionsDetails.aspx.cs
+END
+ViewOrdersDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewOrdersDetail.aspx
+END
+AddZip.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/105/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddZip.aspx.cs
+END
+admin_UploadProductPrice.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_UploadProductPrice.aspx
+END
+DeliverySchedulePrint.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/DeliverySchedulePrint.aspx.designer.cs
+END
+InactiveClientsReport .aspx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/InactiveClientsReport%20.aspx
+END
+ViewUserOrderInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewUserOrderInfo.aspx
+END
+ViewUserInformation.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewUserInformation.aspx.designer.cs
+END
+AddTodaysDelivery.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddTodaysDelivery.aspx.designer.cs
+END
+EditShelves.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/131/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditShelves.aspx.cs
+END
+AddShelves.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/16/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddShelves.aspx.designer.cs
+END
+ViewCustomerTransactions.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewCustomerTransactions.aspx.designer.cs
+END
+ViewProductdDetails.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProductdDetails.aspx.cs
+END
+AddProduct.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cybervaletgrocery/!svn/ver/6/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddProduct.aspx
+END
+ViewProductdDetailsexport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cybervaletgrocery/!svn/ver/139/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProductdDetailsexport.aspx.designer.cs
+END
+ViewClientZipReport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewClientZipReport.aspx.designer.cs
+END
+admin_balance.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_balance.aspx.cs
+END
+admin_depositors.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_depositors.aspx.designer.cs
+END
+Logout.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Logout.aspx
+END
+admin_deliveryschedule.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_deliveryschedule.aspx.designer.cs
+END
+ViewProdcutReport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProdcutReport.aspx.cs
+END
+admin_search_report.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_search_report.aspx.designer.cs
+END
+ViewAllNewsSaleDetails.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewAllNewsSaleDetails.aspx.designer.cs
+END
+EditTodaysDelivery.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditTodaysDelivery.aspx.designer.cs
+END
+AddShelves.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/16/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddShelves.aspx
+END
+TransactionsDetails.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/TransactionsDetails.aspx.cs
+END
+AddTodaysDelivery.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddTodaysDelivery.aspx.cs
+END
+ViewBalanceInformation.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewBalanceInformation.aspx.cs
+END
+admin_balance.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_balance.aspx
+END
+ShoppingCartVariables.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ShoppingCartVariables.aspx.cs
+END
+ViewActivityDetails.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewActivityDetails.aspx.cs
+END
+DeliveryDateInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/DeliveryDateInfo.aspx.cs
+END
+EditDeliInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditDeliInfo.aspx.designer.cs
+END
+ShoppingListPrint.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ShoppingListPrint.aspx.designer.cs
+END
+EditOrdersDetailInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditOrdersDetailInfo.aspx.designer.cs
+END
+ViewSavedListUserInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSavedListUserInfo.aspx.designer.cs
+END
+admin_category3.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category3.aspx
+END
+admin_category3.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category3.aspx.cs
+END
+admin_users.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_users.aspx.designer.cs
+END
+admin_users.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_users.aspx.cs
+END
+AddZip.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/137/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddZip.aspx.designer.cs
+END
+admin_transactions.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_transactions.aspx
+END
+admin_TodaysDelivery.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_TodaysDelivery.aspx.designer.cs
+END
+admin_orderreport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_orderreport.aspx.cs
+END
+admin_employee.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_employee.aspx
+END
+thumbnailTopAisleimage.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailTopAisleimage.aspx
+END
+admin_category.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category.aspx.cs
+END
+ViewBalanceDetails.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewBalanceDetails.aspx.cs
+END
+ViewProductdDetailsexport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/139/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProductdDetailsexport.aspx.cs
+END
+ViewActivityDetails.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewActivityDetails.aspx
+END
+DeliveryDateInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/DeliveryDateInfo.aspx
+END
+AddDeliveryDate.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddDeliveryDate.aspx.cs
+END
+admin_delivery.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_delivery.aspx.cs
+END
+ViewSearchReport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSearchReport.aspx.designer.cs
+END
+thumbnailmainimage.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailmainimage.aspx.cs
+END
+UserOrderDeatilsPrint.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cybervaletgrocery/!svn/ver/9/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserOrderDeatilsPrint.aspx.designer.cs
+END
+AdminLogin.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AdminLogin.Master.designer.cs
+END
+ShoppingListPrint.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/67/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ShoppingListPrint.aspx.cs
+END
+EditAisleTopAisle.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditAisleTopAisle.aspx.cs
+END
+ViewUserOrderInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewUserOrderInfo.aspx.designer.cs
+END
+ForgotPassword.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ForgotPassword.aspx.designer.cs
+END
+EditUser.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditUser.aspx.cs
+END
+UserAllOrderDeatilsPrint.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserAllOrderDeatilsPrint.aspx.cs
+END
+AddProduct.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddProduct.aspx.designer.cs
+END
+AddProduct.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cybervaletgrocery/!svn/ver/6/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddProduct.aspx.cs
+END
+UserOrderDeatilsInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserOrderDeatilsInfo.aspx.designer.cs
+END
+ViewAdminDepositors.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewAdminDepositors.aspx.designer.cs
+END
+UserSavedListDetails.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserSavedListDetails.aspx.designer.cs
+END
+ViewProdcutReport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProdcutReport.aspx
+END
+ViewSavedListProductInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSavedListProductInfo.aspx.cs
+END
+AddAisle.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddAisle.aspx.cs
+END
+admin_coupon.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_coupon.aspx
+END
+EditZip.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditZip.aspx.designer.cs
+END
+Logout.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Logout.aspx.designer.cs
+END
+Logout.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Logout.aspx.cs
+END
+AddCoupon.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddCoupon.aspx.designer.cs
+END
+admin_shoplist.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_shoplist.aspx.cs
+END
+admin_sales.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_sales.aspx.cs
+END
+ViewOrderReportDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewOrderReportDetail.aspx
+END
+EditEmployee.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditEmployee.aspx
+END
+ViewClientActivityReport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewClientActivityReport.aspx.cs
+END
+admin_zipcodes.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_zipcodes.aspx
+END
+ViewCustomerTransactions.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewCustomerTransactions.aspx.cs
+END
+EditProduct.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/7/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditProduct.aspx.cs
+END
+AddEmployee.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddEmployee.aspx.designer.cs
+END
+admin_zipcodes.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_zipcodes.aspx.cs
+END
+admin_delivery.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_delivery.aspx.designer.cs
+END
+thumbnailmainimage.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailmainimage.aspx.designer.cs
+END
+admin_balance.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_balance.aspx.designer.cs
+END
+EditAisle.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditAisle.aspx.designer.cs
+END
+ViewSalesInformation.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSalesInformation.aspx
+END
+ViewSalesInformation.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSalesInformation.aspx.cs
+END
+admin_shoplist.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_shoplist.aspx
+END
+ViewUserInformation.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewUserInformation.aspx
+END
+PopupScript.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/PopupScript.ascx.cs
+END
+AddAislesTopAisles.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddAislesTopAisles.aspx.cs
+END
+admin_deliveryreminder.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_deliveryreminder.aspx.cs
+END
+ViewClientActivityReport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewClientActivityReport.aspx.designer.cs
+END
+ViewProductdDetailsexport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/139/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProductdDetailsexport.aspx
+END
+ViewActivityDetails.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewActivityDetails.aspx.designer.cs
+END
+DeliveryDateInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/DeliveryDateInfo.aspx.designer.cs
+END
+admin_depositors.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_depositors.aspx
+END
+ViewShoppingListDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cybervaletgrocery/!svn/ver/86/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewShoppingListDetail.aspx.cs
+END
+EditAisleTopAisle.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditAisleTopAisle.aspx.designer.cs
+END
+admin_couponreport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_couponreport.aspx.designer.cs
+END
+ViewAllNewsSaleDetails.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewAllNewsSaleDetails.aspx
+END
+AddAislesTopAisles.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddAislesTopAisles.aspx
+END
+NewsPreview.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/133/trunk/CyberValetGrocery/CyberValetGrocery/Admin/NewsPreview.aspx.designer.cs
+END
+ViewClientActivityReport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewClientActivityReport.aspx
+END
+EditShelves.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/17/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditShelves.aspx.designer.cs
+END
+admin_future.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_future.aspx.cs
+END
+EditUser.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditUser.aspx.designer.cs
+END
+admin_product.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_product.aspx
+END
+ViewBalanceInformation.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewBalanceInformation.aspx.designer.cs
+END
+ViewDeliveryDateInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewDeliveryDateInfo.aspx.designer.cs
+END
+admin_product.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_product.aspx.cs
+END
+index3.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/index3.aspx.designer.cs
+END
+EditDeliInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditDeliInfo.aspx
+END
+Newsletter.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/133/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Newsletter.aspx.designer.cs
+END
+SideScript.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/SideScript.ascx.designer.cs
+END
+EditOrdersDetailInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditOrdersDetailInfo.aspx
+END
+admin_depositors.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_depositors.aspx.cs
+END
+PaymentOption.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/PaymentOption.aspx.cs
+END
+admin_orders.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_orders.aspx.cs
+END
+AddZip.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cybervaletgrocery/!svn/ver/137/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddZip.aspx
+END
+NewsPreview.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cybervaletgrocery/!svn/ver/133/trunk/CyberValetGrocery/CyberValetGrocery/Admin/NewsPreview.aspx
+END
+PopupScript.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/PopupScript.ascx.designer.cs
+END
+admin_TodaysDelivery.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_TodaysDelivery.aspx
+END
+ViewOrdersDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewOrdersDetail.aspx.designer.cs
+END
+AddSales.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddSales.aspx
+END
+admin_list_report.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_list_report.aspx.designer.cs
+END
+admin_UploadProductPrice.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_UploadProductPrice.aspx.designer.cs
+END
+InactiveClientsReport .aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/InactiveClientsReport%20.aspx.designer.cs
+END
+admin_future.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_future.aspx.designer.cs
+END
+AdminMasterPage.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AdminMasterPage.Master.cs
+END
+ViewBalanceInformation.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewBalanceInformation.aspx
+END
+admin_product_report.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_product_report.aspx.designer.cs
+END
+ViewOrderReportDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewOrderReportDetail.aspx.designer.cs
+END
+EditEmployee.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditEmployee.aspx.designer.cs
+END
+ViewBalanceDetails.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewBalanceDetails.aspx.designer.cs
+END
+index3.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/index3.aspx
+END
+ViewSearchReport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSearchReport.aspx.cs
+END
+CustomerTransactionsDetails.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/CustomerTransactionsDetails.aspx
+END
+NewLetterPopup.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/132/trunk/CyberValetGrocery/CyberValetGrocery/Admin/NewLetterPopup.aspx.cs
+END
+admin_newsletter.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_newsletter.aspx
+END
+EditOrdersDetailInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditOrdersDetailInfo.aspx.cs
+END
+admin_newsletter_sale.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_newsletter_sale.aspx
+END
+admin_category2.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category2.aspx.designer.cs
+END
+admin_couponreport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_couponreport.aspx.cs
+END
+admin_newsletter_sale.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_newsletter_sale.aspx.cs
+END
+AddNewsletterSale.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddNewsletterSale.aspx.designer.cs
+END
+admin_list_report.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_list_report.aspx
+END
+admin_shoplist.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_shoplist.aspx.designer.cs
+END
+ViewDetailCouponReport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewDetailCouponReport.aspx.cs
+END
+thumbnailAisileimage.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailAisileimage.aspx.cs
+END
+admin_future.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_future.aspx
+END
+admin_orderreport.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_orderreport.aspx.designer.cs
+END
+ForgotPassword.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ForgotPassword.aspx
+END
+admin_UploadProductPrice.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cybervaletgrocery/!svn/ver/139/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_UploadProductPrice.aspx.cs
+END
+InactiveClientsReport .aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/InactiveClientsReport%20.aspx.cs
+END
+ViewBalanceDetails.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewBalanceDetails.aspx
+END
+UserAllOrderDeatilsPrint.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserAllOrderDeatilsPrint.aspx.designer.cs
+END
+NewLetterPopup.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cybervaletgrocery/!svn/ver/132/trunk/CyberValetGrocery/CyberValetGrocery/Admin/NewLetterPopup.aspx
+END
+Viewdeliveryschedule.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Viewdeliveryschedule.aspx.cs
+END
+ViewAdminDepositors.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewAdminDepositors.aspx
+END
+UserOrderDeatilsInfo.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/9/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserOrderDeatilsInfo.aspx.cs
+END
+UserSavedListDetails.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserSavedListDetails.aspx
+END
+ViewSavedListProductInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSavedListProductInfo.aspx.designer.cs
+END
+AddAisle.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddAisle.aspx.designer.cs
+END
+admin_DeliveryInfo.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_DeliveryInfo.aspx.designer.cs
+END
+AddNewsletterSale.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddNewsletterSale.aspx
+END
+EditNewsletterSale.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditNewsletterSale.aspx.designer.cs
+END
+admin_category3.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category3.aspx.designer.cs
+END
+ViewDetailCouponReport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewDetailCouponReport.aspx
+END
+thumbnailAisileimage.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailAisileimage.aspx
+END
+AddCoupon.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddCoupon.aspx.cs
+END
+AddAislesTopAisles.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddAislesTopAisles.aspx.designer.cs
+END
+AddTodaysDelivery.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddTodaysDelivery.aspx
+END
+NewsPreview.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/NewsPreview.aspx.cs
+END
+admin_transactions.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_transactions.aspx.designer.cs
+END
+ViewProductdDetails.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewProductdDetails.aspx
+END
+UserAllOrderDeatilsPrint.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserAllOrderDeatilsPrint.aspx
+END
+ForgotPassword.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ForgotPassword.aspx.cs
+END
+ViewClientZipReport.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewClientZipReport.aspx
+END
+EditProduct.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditProduct.aspx.designer.cs
+END
+admin_delivery.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_delivery.aspx
+END
+thumbnailmainimage.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/thumbnailmainimage.aspx
+END
+ViewClientZipReport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewClientZipReport.aspx.cs
+END
+EditAisle.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditAisle.aspx
+END
+ViewSavedListProductInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSavedListProductInfo.aspx
+END
+AddAisle.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/AddAisle.aspx
+END
+UserSavedListDetails.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserSavedListDetails.aspx.cs
+END
+admin_deliveryschedule.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_deliveryschedule.aspx
+END
+admin_search_report.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_search_report.aspx
+END
+EditCoupon.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditCoupon.aspx
+END
+UserDetailInformation.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/UserDetailInformation.aspx.designer.cs
+END
+index.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/index.aspx.designer.cs
+END
+admin_category2.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_category2.aspx.cs
+END
+admin_deliveryschedule.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_deliveryschedule.aspx.cs
+END
+admin_search_report.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_search_report.aspx.cs
+END
+admin_deliveryreminder.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_deliveryreminder.aspx
+END
+admin_list_report.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_list_report.aspx.cs
+END
+admin_sales.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_sales.aspx.designer.cs
+END
+ViewUserInformation.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewUserInformation.aspx.cs
+END
+admin_transactions.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_transactions.aspx.cs
+END
+admin_UserReport.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/admin_UserReport.aspx.cs
+END
+EditProduct.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cybervaletgrocery/!svn/ver/7/trunk/CyberValetGrocery/CyberValetGrocery/Admin/EditProduct.aspx
+END
+ShoppingCartVariables.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ShoppingCartVariables.aspx.designer.cs
+END
+Viewdeliveryschedule.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/Viewdeliveryschedule.aspx.designer.cs
+END
+ShoppingListPrint.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ShoppingListPrint.aspx
+END
+ViewShoppingListDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cybervaletgrocery/!svn/ver/68/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewShoppingListDetail.aspx
+END
+ViewSavedListUserInfo.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cybervaletgrocery/!svn/ver/2/trunk/CyberValetGrocery/CyberValetGrocery/Admin/ViewSavedListUserInfo.aspx
+END

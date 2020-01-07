@@ -1,0 +1,17 @@
+﻿<html>
+<body>
+	<table>
+	    <tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">Good news $UserName$ ! </td></tr>
+	    <tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">$parentName$ has sent you $companyName$ Account Funds in the amount of $$DepositAmt$ . Go online to $WebSiteURl$ to use your gift certificate.  Place your first order today and begin enjoying the $companyName$ experience – where we shop for you.</td></tr>
+		<tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">$Message$</td></tr>		
+		<tr><td height="10px"></td></tr>		
+		<tr><td style="font-family:Verdana;font-size:12px;">Sincerely,</td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">The $companyName$ Team</td></tr>
+	
+		
+	</table>
+</body>
+</html>

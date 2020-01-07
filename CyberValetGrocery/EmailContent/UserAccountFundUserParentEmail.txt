@@ -1,0 +1,51 @@
+﻿<html>
+<body>
+	<table>
+	    <tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">Congratulations!</td></tr>
+	    <tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">Your deposit went through! An email has been sent to $UserName$ and they may begin using these funds immediately.</td></tr>
+		<tr><td height="10px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">Here are the details of your transaction, please print this page for your records:</td></tr>		
+		<tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">
+		<table>
+		<tr>
+		<td style="font-family:Verdana;font-size:12px;">
+		Transaction Date:
+		</td>
+		<td style="font-family:Verdana;font-size:12px;">$TransactionDate$</td>
+		</tr>
+		<tr><td height="2px"></td></tr>
+		<tr>
+		<td style="font-family:Verdana;font-size:12px;">
+		Transaction Amount:
+		</td>
+		<td style="font-family:Verdana;font-size:12px;">$$TransactionAmount$</td>
+		</tr>
+		<tr><td height="2px"></td></tr>
+		<tr>
+		<td valign="top" style="font-family:Verdana;font-size:12px;">
+		Deposit Account:
+		</td>
+		<td style="font-family:Verdana;font-size:12px;">$UserName$<br>$UserEmail$</td>
+		</tr>
+		
+		</table>
+		
+	
+		
+		
+		
+		</td></tr>	
+		<tr><td height="5px"></td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">We appreciate your business and look forward to working with you to make $UserFirstNM$'s experience more enjoyable. Thank you!</td></tr>
+		
+		<tr><td height="10px"></td></tr>		
+		<tr><td style="font-family:Verdana;font-size:12px;">Respectfully,</td></tr>
+		<tr><td style="font-family:Verdana;font-size:12px;">The $companyName$ Team</td></tr>
+	
+		
+	</table>
+</body>
+</html>

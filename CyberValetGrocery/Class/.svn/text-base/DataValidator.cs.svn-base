@@ -1,0 +1,737 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Text;
+
+namespace CyberValetGrocery.Class
+{
+    public class DataValidator
+    {
+        public static bool IsValidEmail(string strIn)
+        {
+            // Return true if strIn is in valid e-mail format.
+            bool IsValid = System.Text.RegularExpressions.Regex.IsMatch(strIn, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$");
+            if (IsValid)
+                IsValid = IsValidTld(strIn);
+            return IsValid;
+        }
+        public static bool IsValidNumber(string strString)
+        {
+            // Return true if strIn is in valid e-mail format.
+            bool IsValid = System.Text.RegularExpressions.Regex.IsMatch(strString, @"^\d+$");
+
+            return IsValid;
+        }
+        //public static bool IsValidPhone(string strIn)
+        //{
+        //    // Return true if strIn is in valid e-mail format.
+        //    bool IsValid = System.Text.RegularExpressions.Regex.IsMatch(strIn, @"\d{10}");
+        //    if (IsValid)
+        //    {
+        //        if (strIn.StartsWith("000")
+        //            || strIn.StartsWith("123")
+        //            || strIn.StartsWith("011")
+        //            || strIn.StartsWith("111")
+        //            || strIn.StartsWith("211")
+        //            || strIn.StartsWith("311")
+        //            || strIn.StartsWith("411")
+        //            || strIn.StartsWith("511")
+        //            || strIn.StartsWith("611")
+        //            || strIn.StartsWith("711")
+        //            || strIn.StartsWith("811")
+        //            || strIn.StartsWith("911")
+        //            || strIn.StartsWith("999")
+        //            || strIn.StartsWith("555"))
+        //            IsValid = false;
+        //    }
+        //    return IsValid;"((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}"
+        //}
+        public static bool IsValidNumberAndDot(string strString)
+        {
+            // Return true if strIn is in valid e-mail format.
+            bool IsValid = System.Text.RegularExpressions.Regex.IsMatch(strString, @"(?<1>(-?\d+\.\d+)|(-?\d+))");
+
+            return IsValid;
+        }
+
+
+        public static bool IsValidPhone(string strIn)
+        {
+            // Return true if strIn is in valid e-mail format.\d{3}-\d{3}-\d{4}
+            // bool IsValid = System.Text.RegularExpressions.Regex.IsMatch(strIn, @"((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}");
+
+            bool IsValid = System.Text.RegularExpressions.Regex.IsMatch(strIn, @"\d{3}-\d{3}-\d{4}");
+
+            //if (IsValid)
+            //{
+            //    if (strIn.StartsWith("000")
+            //        || strIn.StartsWith("123")
+            //        || strIn.StartsWith("011")
+            //        || strIn.StartsWith("111")
+            //        || strIn.StartsWith("211")
+            //        || strIn.StartsWith("311")
+            //        || strIn.StartsWith("411")
+            //        || strIn.StartsWith("511")
+            //        || strIn.StartsWith("611")
+            //        || strIn.StartsWith("711")
+            //        || strIn.StartsWith("811")
+            //        || strIn.StartsWith("911")
+            //        || strIn.StartsWith("999")
+            //        || strIn.StartsWith("555"))
+            //        IsValid = false;
+            //}
+            return IsValid;
+        }
+        public static bool IsValidState(string StrState)
+        {
+            if (StrState.Equals("AL") || StrState.Equals("AK") || StrState.Equals("AS") || StrState.Equals("AZ") || StrState.Equals("AR") || StrState.Equals("CA") || StrState.Equals("CO") || StrState.Equals("CT") || StrState.Equals("DE") || StrState.Equals("DC")
+                    || StrState.Equals("FM") || StrState.Equals("FL") || StrState.Equals("GA") || StrState.Equals("GU") || StrState.Equals("HI")
+                    || StrState.Equals("ID") || StrState.Equals("IL") || StrState.Equals("IN") || StrState.Equals("IA") || StrState.Equals("KS")
+                    || StrState.Equals("KY") || StrState.Equals("LA") || StrState.Equals("ME") || StrState.Equals("MH") || StrState.Equals("MD")
+                    || StrState.Equals("MA") || StrState.Equals("MI") || StrState.Equals("MN") || StrState.Equals("MS") || StrState.Equals("MO")
+                    || StrState.Equals("MT") || StrState.Equals("NE") || StrState.Equals("NV") || StrState.Equals("NH") || StrState.Equals("NJ")
+                    || StrState.Equals("NM") || StrState.Equals("NY") || StrState.Equals("NC") || StrState.Equals("ND") || StrState.Equals("MP")
+                    || StrState.Equals("OH") || StrState.Equals("OK") || StrState.Equals("OR") || StrState.Equals("PW") || StrState.Equals("PA")
+                    || StrState.Equals("PR") || StrState.Equals("SC") || StrState.Equals("SD") || StrState.Equals("TN") || StrState.Equals("TX")
+                    || StrState.Equals("UT") || StrState.Equals("VT") || StrState.Equals("VI") || StrState.Equals("VA") || StrState.Equals("WA")
+                    || StrState.Equals("WV") || StrState.Equals("WI") || StrState.Equals("WY"))
+                return true;
+            else
+                return false;
+        }
+        public static bool IsValidTld(string EmailAddress)
+        {
+            string StrDomain = EmailAddress.Substring(EmailAddress.LastIndexOf('.') + 1);
+            if (StrDomain != null && StrDomain.Length > 0)
+            {
+                StrDomain = StrDomain.ToUpper();
+                if (StrDomain.Equals("AC") ||
+                    StrDomain.Equals("AD") ||
+                    StrDomain.Equals("AE") ||
+                    StrDomain.Equals("AERO") ||
+                    StrDomain.Equals("AF") ||
+                    StrDomain.Equals("AG") ||
+                    StrDomain.Equals("AI") ||
+                    StrDomain.Equals("AL") ||
+                    StrDomain.Equals("AM") ||
+                    StrDomain.Equals("AN") ||
+                    StrDomain.Equals("AO") ||
+                    StrDomain.Equals("AQ") ||
+                    StrDomain.Equals("AR") ||
+                    StrDomain.Equals("ARPA") ||
+                    StrDomain.Equals("AS") ||
+                    StrDomain.Equals("ASIA") ||
+                    StrDomain.Equals("AT") ||
+                    StrDomain.Equals("AU") ||
+                    StrDomain.Equals("AW") ||
+                    StrDomain.Equals("AX") ||
+                    StrDomain.Equals("AZ") ||
+                    StrDomain.Equals("BA") ||
+                    StrDomain.Equals("BB") ||
+                    StrDomain.Equals("BD") ||
+                    StrDomain.Equals("BE") ||
+                    StrDomain.Equals("BF") ||
+                    StrDomain.Equals("BG") ||
+                    StrDomain.Equals("BH") ||
+                    StrDomain.Equals("BI") ||
+                    StrDomain.Equals("BIZ") ||
+                    StrDomain.Equals("BJ") ||
+                    StrDomain.Equals("BM") ||
+                    StrDomain.Equals("BN") ||
+                    StrDomain.Equals("BO") ||
+                    StrDomain.Equals("BR") ||
+                    StrDomain.Equals("BS") ||
+                    StrDomain.Equals("BT") ||
+                    StrDomain.Equals("BV") ||
+                    StrDomain.Equals("BW") ||
+                    StrDomain.Equals("BY") ||
+                    StrDomain.Equals("BZ") ||
+                    StrDomain.Equals("CA") ||
+                    StrDomain.Equals("CAT") ||
+                    StrDomain.Equals("CC") ||
+                    StrDomain.Equals("CD") ||
+                    StrDomain.Equals("CF") ||
+                    StrDomain.Equals("CG") ||
+                    StrDomain.Equals("CH") ||
+                    StrDomain.Equals("CI") ||
+                    StrDomain.Equals("CK") ||
+                    StrDomain.Equals("CL") ||
+                    StrDomain.Equals("CM") ||
+                    StrDomain.Equals("CN") ||
+                    StrDomain.Equals("CO") ||
+                    StrDomain.Equals("COM") ||
+                    StrDomain.Equals("COOP") ||
+                    StrDomain.Equals("CR") ||
+                    StrDomain.Equals("CU") ||
+                    StrDomain.Equals("CV") ||
+                    StrDomain.Equals("CX") ||
+                    StrDomain.Equals("CY") ||
+                    StrDomain.Equals("CZ") ||
+                    StrDomain.Equals("DE") ||
+                    StrDomain.Equals("DJ") ||
+                    StrDomain.Equals("DK") ||
+                    StrDomain.Equals("DM") ||
+                    StrDomain.Equals("DO") ||
+                    StrDomain.Equals("DZ") ||
+                    StrDomain.Equals("EC") ||
+                    StrDomain.Equals("EDU") ||
+                    StrDomain.Equals("EE") ||
+                    StrDomain.Equals("EG") ||
+                    StrDomain.Equals("ER") ||
+                    StrDomain.Equals("ES") ||
+                    StrDomain.Equals("ET") ||
+                    StrDomain.Equals("EU") ||
+                    StrDomain.Equals("FI") ||
+                    StrDomain.Equals("FJ") ||
+                    StrDomain.Equals("FK") ||
+                    StrDomain.Equals("FM") ||
+                    StrDomain.Equals("FO") ||
+                    StrDomain.Equals("FR") ||
+                    StrDomain.Equals("GA") ||
+                    StrDomain.Equals("GB") ||
+                    StrDomain.Equals("GD") ||
+                    StrDomain.Equals("GE") ||
+                    StrDomain.Equals("GF") ||
+                    StrDomain.Equals("GG") ||
+                    StrDomain.Equals("GH") ||
+                    StrDomain.Equals("GI") ||
+                    StrDomain.Equals("GL") ||
+                    StrDomain.Equals("GM") ||
+                    StrDomain.Equals("GN") ||
+                    StrDomain.Equals("GOV") ||
+                    StrDomain.Equals("GP") ||
+                    StrDomain.Equals("GQ") ||
+                    StrDomain.Equals("GR") ||
+                    StrDomain.Equals("GS") ||
+                    StrDomain.Equals("GT") ||
+                    StrDomain.Equals("GU") ||
+                    StrDomain.Equals("GW") ||
+                    StrDomain.Equals("GY") ||
+                    StrDomain.Equals("HK") ||
+                    StrDomain.Equals("HM") ||
+                    StrDomain.Equals("HN") ||
+                    StrDomain.Equals("HR") ||
+                    StrDomain.Equals("HT") ||
+                    StrDomain.Equals("HU") ||
+                    StrDomain.Equals("ID") ||
+                    StrDomain.Equals("IE") ||
+                    StrDomain.Equals("IL") ||
+                    StrDomain.Equals("IM") ||
+                    StrDomain.Equals("IN") ||
+                    StrDomain.Equals("INFO") ||
+                    StrDomain.Equals("INT") ||
+                    StrDomain.Equals("IO") ||
+                    StrDomain.Equals("IQ") ||
+                    StrDomain.Equals("IR") ||
+                    StrDomain.Equals("IS") ||
+                    StrDomain.Equals("IT") ||
+                    StrDomain.Equals("JE") ||
+                    StrDomain.Equals("JM") ||
+                    StrDomain.Equals("JO") ||
+                    StrDomain.Equals("JOBS") ||
+                    StrDomain.Equals("JP") ||
+                    StrDomain.Equals("KE") ||
+                    StrDomain.Equals("KG") ||
+                    StrDomain.Equals("KH") ||
+                    StrDomain.Equals("KI") ||
+                    StrDomain.Equals("KM") ||
+                    StrDomain.Equals("KN") ||
+                    StrDomain.Equals("KP") ||
+                    StrDomain.Equals("KR") ||
+                    StrDomain.Equals("KW") ||
+                    StrDomain.Equals("KY") ||
+                    StrDomain.Equals("KZ") ||
+                    StrDomain.Equals("LA") ||
+                    StrDomain.Equals("LB") ||
+                    StrDomain.Equals("LC") ||
+                    StrDomain.Equals("LI") ||
+                    StrDomain.Equals("LK") ||
+                    StrDomain.Equals("LR") ||
+                    StrDomain.Equals("LS") ||
+                    StrDomain.Equals("LT") ||
+                    StrDomain.Equals("LU") ||
+                    StrDomain.Equals("LV") ||
+                    StrDomain.Equals("LY") ||
+                    StrDomain.Equals("MA") ||
+                    StrDomain.Equals("MC") ||
+                    StrDomain.Equals("MD") ||
+                    StrDomain.Equals("ME") ||
+                    StrDomain.Equals("MG") ||
+                    StrDomain.Equals("MH") ||
+                    StrDomain.Equals("MIL") ||
+                    StrDomain.Equals("MK") ||
+                    StrDomain.Equals("ML") ||
+                    StrDomain.Equals("MM") ||
+                    StrDomain.Equals("MN") ||
+                    StrDomain.Equals("MO") ||
+                    StrDomain.Equals("MOBI") ||
+                    StrDomain.Equals("MP") ||
+                    StrDomain.Equals("MQ") ||
+                    StrDomain.Equals("MR") ||
+                    StrDomain.Equals("MS") ||
+                    StrDomain.Equals("MT") ||
+                    StrDomain.Equals("MU") ||
+                    StrDomain.Equals("MUSEUM") ||
+                    StrDomain.Equals("MV") ||
+                    StrDomain.Equals("MW") ||
+                    StrDomain.Equals("MX") ||
+                    StrDomain.Equals("MY") ||
+                    StrDomain.Equals("MZ") ||
+                    StrDomain.Equals("NA") ||
+                    StrDomain.Equals("NAME") ||
+                    StrDomain.Equals("NC") ||
+                    StrDomain.Equals("NE") ||
+                    StrDomain.Equals("NET") ||
+                    StrDomain.Equals("NF") ||
+                    StrDomain.Equals("NG") ||
+                    StrDomain.Equals("NI") ||
+                    StrDomain.Equals("NL") ||
+                    StrDomain.Equals("NO") ||
+                    StrDomain.Equals("NP") ||
+                    StrDomain.Equals("NR") ||
+                    StrDomain.Equals("NU") ||
+                    StrDomain.Equals("NZ") ||
+                    StrDomain.Equals("OM") ||
+                    StrDomain.Equals("ORG") ||
+                    StrDomain.Equals("PA") ||
+                    StrDomain.Equals("PE") ||
+                    StrDomain.Equals("PF") ||
+                    StrDomain.Equals("PG") ||
+                    StrDomain.Equals("PH") ||
+                    StrDomain.Equals("PK") ||
+                    StrDomain.Equals("PL") ||
+                    StrDomain.Equals("PM") ||
+                    StrDomain.Equals("PN") ||
+                    StrDomain.Equals("PR") ||
+                    StrDomain.Equals("PRO") ||
+                    StrDomain.Equals("PS") ||
+                    StrDomain.Equals("PT") ||
+                    StrDomain.Equals("PW") ||
+                    StrDomain.Equals("PY") ||
+                    StrDomain.Equals("QA") ||
+                    StrDomain.Equals("RE") ||
+                    StrDomain.Equals("RO") ||
+                    StrDomain.Equals("RS") ||
+                    StrDomain.Equals("RU") ||
+                    StrDomain.Equals("RW") ||
+                    StrDomain.Equals("SA") ||
+                    StrDomain.Equals("SB") ||
+                    StrDomain.Equals("SC") ||
+                    StrDomain.Equals("SD") ||
+                    StrDomain.Equals("SE") ||
+                    StrDomain.Equals("SG") ||
+                    StrDomain.Equals("SH") ||
+                    StrDomain.Equals("SI") ||
+                    StrDomain.Equals("SJ") ||
+                    StrDomain.Equals("SK") ||
+                    StrDomain.Equals("SL") ||
+                    StrDomain.Equals("SM") ||
+                    StrDomain.Equals("SN") ||
+                    StrDomain.Equals("SO") ||
+                    StrDomain.Equals("SR") ||
+                    StrDomain.Equals("ST") ||
+                    StrDomain.Equals("SU") ||
+                    StrDomain.Equals("SV") ||
+                    StrDomain.Equals("SY") ||
+                    StrDomain.Equals("SZ") ||
+                    StrDomain.Equals("TC") ||
+                    StrDomain.Equals("TD") ||
+                    StrDomain.Equals("TEL") ||
+                    StrDomain.Equals("TF") ||
+                    StrDomain.Equals("TG") ||
+                    StrDomain.Equals("TH") ||
+                    StrDomain.Equals("TJ") ||
+                    StrDomain.Equals("TK") ||
+                    StrDomain.Equals("TL") ||
+                    StrDomain.Equals("TM") ||
+                    StrDomain.Equals("TN") ||
+                    StrDomain.Equals("TO") ||
+                    StrDomain.Equals("TP") ||
+                    StrDomain.Equals("TR") ||
+                    StrDomain.Equals("TRAVEL") ||
+                    StrDomain.Equals("TT") ||
+                    StrDomain.Equals("TV") ||
+                    StrDomain.Equals("TW") ||
+                    StrDomain.Equals("TZ") ||
+                    StrDomain.Equals("UA") ||
+                    StrDomain.Equals("UG") ||
+                    StrDomain.Equals("UK") ||
+                    StrDomain.Equals("US") ||
+                    StrDomain.Equals("UY") ||
+                    StrDomain.Equals("UZ") ||
+                    StrDomain.Equals("VA") ||
+                    StrDomain.Equals("VC") ||
+                    StrDomain.Equals("VE") ||
+                    StrDomain.Equals("VG") ||
+                    StrDomain.Equals("VI") ||
+                    StrDomain.Equals("VN") ||
+                    StrDomain.Equals("VU") ||
+                    StrDomain.Equals("WF") ||
+                    StrDomain.Equals("WS") ||
+                    StrDomain.Equals("XN") ||
+                    StrDomain.Equals("YE") ||
+                    StrDomain.Equals("YT") ||
+                    StrDomain.Equals("YU") ||
+                    StrDomain.Equals("ZA") ||
+                    StrDomain.Equals("ZM") ||
+                    StrDomain.Equals("ZW"))
+                    return true;
+                else
+                    return false;
+            }
+            else
+                return false;
+        }
+
+
+
+
+
+
+
+
+        public static int IsValidDate(string StartDate, string EndDate)
+        {
+            int intReturn = 0;
+            string[] startdateInfo = new string[2];
+            char[] splitter = { '/' };
+            startdateInfo = StartDate.Split(splitter);
+            int startday = Convert.ToInt32(startdateInfo[1]);
+            int startmonth = Convert.ToInt32(startdateInfo[0]);
+            int startYear = Convert.ToInt32(startdateInfo[2]);
+
+            string[] enddateInfo = new string[2];
+            enddateInfo = EndDate.Split(splitter);
+            int endday = Convert.ToInt32(enddateInfo[1]);
+            int endmonth = Convert.ToInt32(enddateInfo[0]);
+            int endYear = Convert.ToInt32(enddateInfo[2]);
+
+            if (startYear <= endYear)
+            {
+                if (startYear == endYear)
+                {
+                    if (startmonth <= endmonth)
+                    {
+                        if (startmonth == endmonth)
+                        {
+                            if (startday <= endday)
+                            {
+                                intReturn = 0;
+
+                            }
+                            else
+                            {
+                                intReturn = 2;
+
+                            }
+                        }
+                        else
+                        {
+                            intReturn = 0;
+
+                        }
+
+
+                    }
+                    else
+                    {
+                        intReturn = 2;
+
+                    }
+                }
+                else
+                {
+                    intReturn = 0;
+
+                }
+            }
+            else
+            {
+                intReturn = 2;
+
+            }
+
+
+
+
+
+
+            return intReturn;
+
+
+
+
+        }
+
+        public static int IsValidTodaysDate(string StrDate)
+        {
+            int intReturn = 0;
+            string[] dateInfo = new string[2];
+            char[] splitter = { '/' };
+            dateInfo = StrDate.Split(splitter);
+            int day = Convert.ToInt32(dateInfo[1]);
+            int month = Convert.ToInt32(dateInfo[0]);
+            int year = Convert.ToInt32(dateInfo[2]);
+            DateTime dateToday = DateTime.Today;
+            int dayToday = Convert.ToInt32(dateToday.Day);
+            int monthToday = Convert.ToInt32(dateToday.Month);
+            int yearToday = Convert.ToInt32(dateToday.Year);
+
+            if (year <= yearToday)
+            {
+                if (year == yearToday)
+                {
+                    if (month <= monthToday)
+                    {
+                        if (month == monthToday)
+                        {
+                            if (day <= dayToday)
+                            {
+                                intReturn = 0;
+
+                            }
+                            else
+                            {
+                                intReturn = 1;
+
+                            }
+                        }
+                        else
+                        {
+                            intReturn = 0;
+
+                        }
+
+
+                    }
+                    else
+                    {
+                        intReturn = 1;
+
+                    }
+                }
+                else
+                {
+                    intReturn = 0;
+
+                }
+
+
+
+            }
+            else
+            {
+                intReturn = 1;
+
+            }
+
+
+
+
+            return intReturn;
+
+        }
+
+
+
+
+
+
+
+        public static int IsValidDateGreaterToday(string StrDate)
+        {
+            int intReturn = 0;
+            string[] dateInfo = new string[2];
+            char[] splitter = { '/' };
+            dateInfo = StrDate.Split(splitter);
+            int day = Convert.ToInt32(dateInfo[1]);
+            int month = Convert.ToInt32(dateInfo[0]);
+            int year = Convert.ToInt32(dateInfo[2]);
+            DateTime dateToday = DateTime.Today;
+            int dayToday = Convert.ToInt32(dateToday.Day);
+            int monthToday = Convert.ToInt32(dateToday.Month);
+            int yearToday = Convert.ToInt32(dateToday.Year);
+
+            if (yearToday < year)
+            {
+                intReturn = 1;
+            }
+
+
+            else
+            {
+                if (year == yearToday)
+                {
+                    if (monthToday < month)
+                    {
+
+                        intReturn = 1;
+                    }
+                    else
+                    {
+                        if (month == monthToday)
+                        {
+                            if (dayToday < day)
+                            {
+                                intReturn = 1;
+
+                            }
+                            else
+                            {
+                                intReturn = 0;
+
+                            }
+                        }
+                        else
+                        {
+                            intReturn = 0;
+                        }
+
+
+
+                    }
+
+                }
+                else
+                {
+                    intReturn = 0;
+                }
+
+
+
+            }
+
+
+
+
+
+
+            return intReturn;
+
+        }
+
+
+
+        public static int IsValidNewsLetterDate(string StartDate, string EndDate)
+        {
+            int intReturn = 0;
+            string[] startdateInfo = new string[3];
+            char[] splitter = { '/' };
+            startdateInfo = StartDate.Split(splitter);
+            int startday = Convert.ToInt32(startdateInfo[1]);
+            int startmonth = Convert.ToInt32(startdateInfo[0]);
+            int startyear = Convert.ToInt32(startdateInfo[2]);
+
+            string[] enddateInfo = new string[2];
+            enddateInfo = EndDate.Split(splitter);
+            int endday = Convert.ToInt32(enddateInfo[1]);
+            int endmonth = Convert.ToInt32(enddateInfo[0]);
+            int endyear = Convert.ToInt32(startdateInfo[2]);
+            if (endyear > startyear)
+            {
+                intReturn = 0;
+            }
+            else
+            {
+                if (endyear == startyear)
+                {
+
+                    if (endmonth <= startmonth)
+                    {
+                        if (startmonth == endmonth)
+                        {
+                            if (endday <= startday)
+                            {
+                                intReturn = 2;
+
+                            }
+                            else
+                            {
+                                intReturn = 0;
+
+                            }
+                        }
+                        else
+                        {
+                            intReturn = 2;
+
+                        }
+
+
+                    }
+                    else
+                    {
+                        intReturn = 0;
+
+                    }
+                }
+                else
+                {
+                    intReturn = 2;
+
+                }
+            }
+
+
+
+
+
+
+            return intReturn;
+
+
+
+
+        }
+
+
+
+        public static int checkDateEntered(string EnterDate)
+        {
+            int intReturn = 0;
+            string[] dateInfo = new string[3];
+            char[] splitter = { '/' };
+            dateInfo = EnterDate.Split(splitter);
+            int startday = Convert.ToInt32(dateInfo[1]);
+            int startmonth = Convert.ToInt32(dateInfo[0]);
+            int startyear = Convert.ToInt32(dateInfo[2]);
+
+            if (startmonth < 1 || startmonth > 12)
+            {
+                intReturn = 1;
+
+            }
+            if (startday < 1 || startday > 31)
+            {
+                intReturn = 1;
+            }
+
+            if ((startmonth == 4 || startmonth == 6 || startmonth == 9 || startmonth == 11) && startday == 31)
+            {
+                intReturn = 1;
+            }
+            if (startmonth == 2)
+            {
+                // check for february 29th
+                var isleap = (startyear % 4 == 0 && (startyear % 100 != 0 || startyear % 400 == 0));
+                if (startday > 29 || (startday == 29 && !isleap))
+                {
+                    intReturn = 1;
+                }
+            }
+            return intReturn;
+
+
+
+
+
+
+
+
+        }
+
+
+
+    }
+}

@@ -1,0 +1,264 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs"    Inherits="CyberValetGrocery.Admin.AdminMasterPage" %>
+<%@ Register Src="~/Admin/SideScript.ascx" TagName="AdminScript" TagPrefix="uc1" %>
+<%@ Register Src="~/Admin/PopupScript.ascx" TagName="PopUpScript" TagPrefix="ucPopup" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" href="../CSS/general.css" type="text/css" />
+   <uc1:AdminScript ID="AdminScript1" runat="server" />
+   <ucPopup:PopUpScript ID="PopUpScript1" runat="server" />
+  
+    
+    <link href="../js/dhtmlwindow.css" rel="stylesheet" type="text/css" />
+    <link href="../js/modal.css" rel="stylesheet" type="text/css" />    
+ <script type="text/javascript" src="../js/dhtmlwindow.js"></script>    
+  <script type="text/javascript" src="../js/modal.js"> </script>
+  
+   <link href="../js/dhtmlwindow1.css" rel="stylesheet" type="text/css" />
+    <link href="../js/modal1.css" rel="stylesheet" type="text/css" />    
+ <script type="text/javascript" src="../js/dhtmlwindow1.js"></script>    
+  <script type="text/javascript" src="../js/modal1.js"> </script>
+  
+  
+  <link href="../js/dhtmlwindowNew1.css" rel="stylesheet" type="text/css" />
+    <link href="../js/modalNew1.css" rel="stylesheet" type="text/css" />    
+ <script type="text/javascript" src="../js/dhtmlwindowNew1.js"></script>    
+  <script type="text/javascript" src="../js/modalNew1.js"> </script>
+  
+  
+  <link href="../js/dhtmlwindowNew.css" rel="stylesheet" type="text/css" />
+    <link href="../js/modalNew.css" rel="stylesheet" type="text/css" />    
+ <script type="text/javascript" src="../js/dhtmlwindowNew.js"></script>    
+  <script type="text/javascript" src="../js/modalNew.js"> </script>
+ <style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+
+}
+    
+-->
+</style>
+   
+
+</head>
+<body>
+   <form id="form1" runat="server">
+      <div >
+      
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="106" valign="top" class="header"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="27%" height="106" valign="bottom">
+            <%--<a href="index3.aspx">
+            <img src="../images/logo1.png" width="246" height="113" border="0"/></a>--%>
+            
+            <a href="index3.aspx" class="anker">
+                                                                        <%--<img src="images/logo.png" width="200" height="60" border="0" class="logo" />--%>
+                                                                        <asp:Label ID="lbllogo" runat="server" Text="CyberValetGrocery" CssClass="logonew"></asp:Label>
+                                                                        
+                                                                        </a>
+            
+            
+            </td>
+            <td width="73%" align="left" ><span class="admin-text">Admin panel</span></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td class="headestrip"></td>
+      </tr>
+      <tr>
+        <td valign="top" style="padding:6px;">
+        
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="245" valign="top" nowrap="nowrap">
+            
+            <div class="divBorder">
+            
+             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><a href="index3.aspx" class="aacordindiv">Main</a></td>
+                </tr>
+                <tr>
+                    <td>
+                
+                    <a href="#" onclick="showHide('customers')" class="aacordindiv">Customers</a>
+                 
+                    
+                    </td>
+                </tr>
+                 <tr>
+                   <td  >
+                   <div id="customers" style="Display:none;">
+                   
+                  <asp:DataList  ID="dtlcustomers" runat="server" GridLines="None" 
+                           RepeatDirection="Vertical"  >
+                               
+                                 <HeaderTemplate>
+                                  <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                 </HeaderTemplate>
+                                <ItemTemplate>
+                                    
+                                        <tr>
+                                            <td valign ="top" align="left"  style="padding-left:25px;" nowrap="nowrap">
+                                             <asp:LinkButton ID="lkbCustomers" CssClass="sublink1"  runat="server" Text='<%#DataBinder.Eval(Container.DataItem,"name") %>' PostBackUrl='<%#DataBinder.Eval(Container.DataItem,"link") %>' CausesValidation="false"   >
+                       
+                                                </asp:LinkButton>                                           
+                                              
+                                            </td>
+                                        </tr>
+                                  
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                 </table>
+                                </FooterTemplate>
+                            </asp:DataList>
+                            
+                   
+                    
+                  
+                   
+                 </div>
+                   
+                   
+                   
+                   </td>
+                 </tr>
+                 <tr>
+                    <td>
+                  
+                    <a href="#" class="aacordindiv"  onclick="showHide('sitefunctions')">Site Functions</a>
+                   
+                    
+                    </td>
+                </tr>
+                
+                
+                 <tr>
+                   <td >
+                   
+                   <div id="sitefunctions" style="Display:none;">
+                   
+                  <asp:DataList  ID="dtlsitefunctions" runat="server" GridLines="None" 
+                           RepeatDirection="Vertical"  >
+                               
+                                 <HeaderTemplate>
+                                  <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                 </HeaderTemplate>
+                                <ItemTemplate>
+                                    
+                                        <tr>
+                                            <td valign ="top" align="left"  style="padding-left:25px;" nowrap="nowrap">
+                                             <asp:LinkButton ID="lkbSitefunctions" CssClass="sublink1"  runat="server" Text='<%#DataBinder.Eval(Container.DataItem,"name") %>' PostBackUrl='<%#DataBinder.Eval(Container.DataItem,"link") %>' CausesValidation="false"  >
+                       
+                                                </asp:LinkButton>                                           
+                                              
+                                            </td>
+                                        </tr>
+                                  
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                 </table>
+                                </FooterTemplate>
+                            </asp:DataList>
+                   
+                 </div>
+                   
+                   
+                   
+                   </td>
+                 </tr>
+                
+                
+                 <tr>
+                    <td>
+                    <a href="ShoppingCartVariables.aspx" class="aacordindiv">Shopping Cart Variables </a>
+                    </td>
+                </tr>
+                 <tr>
+                    <td><a href="PaymentOption.aspx" class="aacordindiv">Payment Options</a></td>
+                </tr>
+                 <tr>
+                    <td>
+                    <a href="#" onclick="showHide('reports')" class="aacordindiv">Reports</a>                    
+                    </td>
+                </tr>
+                 <tr>
+                   <td >
+                   <div id="reports" style="Display:none;">
+                   
+                   <asp:DataList  ID="dtlreports" runat="server" GridLines="None" 
+                           RepeatDirection="Vertical"  >
+                                 <HeaderTemplate>
+                                  <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                 </HeaderTemplate>
+                                <ItemTemplate>
+                                    
+                                        <tr>
+                                            <td valign ="top" align="left"  style="padding-left:25px;" nowrap="nowrap">
+                                             <asp:LinkButton ID="lkbreports" CssClass="sublink1"  runat="server" Text='<%#DataBinder.Eval(Container.DataItem,"name") %>' PostBackUrl='<%#DataBinder.Eval(Container.DataItem,"link") %>' CausesValidation="false"  >
+                       
+                                                </asp:LinkButton>                                           
+                                              
+                                            </td>
+                                        </tr>
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                 </table>
+                                </FooterTemplate>
+                            </asp:DataList>
+                 </div>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td height="10"></td>
+                 </tr>
+                 <tr>
+                   <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                     <tr>
+                       <td width="17%" align="center">
+                       <img src="../images/logout-btn.jpg" width="23" height="25" /></td>
+                       <td width="83%" class="Logoutlink">
+                       <a href="Logout.aspx" class="Logoutlink">
+                       Logout</a></td>
+                     </tr>
+                   </table></td>
+                 </tr>
+              </table>
+            </div>            
+            </td>
+            <td width="13" valign="top">&nbsp;</td>
+            <td width="909" valign="top">
+            
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+            
+            </td>
+            </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+    </div>
+    </form>
+</body>
+</html>

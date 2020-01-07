@@ -1,0 +1,159 @@
+﻿<html>
+<body>
+    <table>
+        <tr>
+            <td height="5px">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+                Dear $Username$,
+            </td>
+        </tr>
+        <tr>
+            <td height="5px">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+              Thank you for becoming a member of Low Country Grocery Runner/ Cyber Valet Grocery.
+            </td>
+        </tr>
+		 <tr>
+            <td height="5px">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+            We'll bring your groceries to your rental before you arrive!  You might never see us, but you'll know we were there!
+
+            </td>
+        </tr>
+        <tr>
+            <td height="5px">
+            </td>
+        </tr> 
+        <tr>
+
+            <td style="font-family: Verdana; font-size: 12px;">               											
+				Browse over 4,000 items including: fresh fruits and vegetables, bakery items and 
+				even kitchen gadgets and office supplies. Choose the day and the one-hour time slot 
+				when you would like us to deliver and we'll bring the groceries right to your door.
+				Best of all, our prices are comparable to local supermarkets.
+
+            </td>
+        </tr>
+        <tr>
+            <td height="15px">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+                <b>Your username is</b>: $emailId$
+            </td>
+        </tr>
+        <tr>
+            <td height="15px">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+
+                <b>Your Password is</b>: $password$
+
+               
+
+            </td>
+        </tr>
+		  <tr>
+            <td height="15px">
+            </td>
+        </tr>
+       <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+
+            			   
+<b>Vacationers:</b> Please order by Thursday for Saturday delivery.  Any later and we won't be able to pull it off.. 
+              
+
+            </td>
+			
+        </tr>
+		  <tr>
+            <td height="15px">
+            </td>
+        </tr>
+       
+		 <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+              
+				<b>Get this:</b>  
+you can order weeks in advance! We'll bring your groceries and put them away before you arrive!
+            </td>
+        </tr>
+		 <tr>
+            <td height="15px">
+            </td>
+        </tr>
+       
+		 <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+              												
+          Be sure you order early as spaces are limited. 1-week lead time is best for us.
+            </td>
+        </tr>
+        <tr>
+            <td height="15px">
+            </td>
+        </tr>
+       
+		 <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+             
+				<b>Locals:</b> We can work out same day delivery, but we prefer a day or two notice.
+
+            </td>
+        </tr>
+        <tr>
+            <td height="15px">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+
+              Start shopping today - Groceries arrive fresh and fast and delivery costs less than a tank of gas!
+
+
+            </td>
+        </tr>
+        <tr>
+            <td height="15px">
+            </td>
+        </tr>
+       
+        <tr>
+            <td height="10px">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Verdana; font-size: 12px;">
+                Sincerely,
+            </td>
+        </tr>
+        <tr>
+
+            <td style="font-family: Verdana; font-size: 12px;display:none">
+                The $companyName$ Team</td>
+				 <td style="font-family: Verdana; font-size: 12px;">
+               The Low Country Grocery Runner Team</td>
+</tr>
+<tr>
+            <td style="font-family: Verdana; font-size: 12px;"> 
+                843-505-8568<br />
+               Call or Text<br />
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,318 @@
+﻿<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .formTextSmallPrintUser
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            font-weight: normal;
+            color: #040404;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="padding-left: 10px;">
+            <tr>
+                <td height="10px">
+                </td>
+            </tr>
+            <tr>
+                <td class="formTextSmallPrintUser" style="padding-left: 20px;">
+                    <strong>Congratulations!</strong> You have just placed an order with&nbsp;$CmpName$.
+                    The details of your order are provided below. We want to thank you for choosing&nbsp;$CmpName$
+                    , we will do our very best to provide exceptional service at all times.
+                </td>
+            </tr>
+            <tr>
+                <td height="20px">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 20px;" class="formTextSmallPrintUser">
+                    <table border="0" cellpadding="3" cellspacing="0" style="border: thin solid #e4e4e4;">
+                        <tr>
+                            <td colspan="2" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px;
+                                font-weight: bold; color: White; background-color: #73A534;">
+                                <strong>Order #: </strong>$ordNm$
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td width="300">
+                                <table cellpadding="3" cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Ordered:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $ordDate$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Delivery:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $DelivDate$
+                                        </td>
+                                    </tr>
+                                    <tr valign="top" align="right" class="formTextSmallPrintUser">
+                                        <td>
+                                            <strong>Payment method:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $PaymentMethod$
+                                        </td>
+                                    </tr>
+                                    <tr align="right" class="formTextSmallPrintUser">
+                                        <td>
+                                            <strong>UK Plus Account Name:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Acctname$
+                                        </td>
+                                    </tr>
+                                    <tr align="right" class="formTextSmallPrintUser">
+                                        <td>
+                                            <strong>UK Plus Account number:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Acctno$
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="300" class="formTextSmallPrintUser">
+                                <strong>Special Order Instructions?</strong><br />
+                                $SpecialOrInfo$
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold;
+                            color: White; background-color: #73A534;">
+                            <td>
+                                <strong>Customer Information</strong>
+                            </td>
+                            <td valign="top">
+                                <strong>Delivery Address</strong>
+                            </td>
+                        </tr>
+                        <tr valign="top" class="formTextSmallPrintUser">
+                            <td width="300">
+                                <table cellpadding="3" cellspacing="0" border="0">
+                                    <tr>
+                                        <td width="120" align="right" class="formTextSmallPrintUser">
+                                            <strong>First Name:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Fname$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Last Name:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Lname$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Phone:</strong>
+                                        </td>
+                                        <td class="formTextSmallPrintUser">
+                                            $Phone$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Phone 2:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Phone2$
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="300" class="formTextSmallPrintUser">
+                                <table cellpadding="3" cellspacing="0" border="0">
+                                    <tr>
+                                        <td width="120" align="right" class="formTextSmallPrintUser">
+                                            <strong>Address:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Add1$
+                                            <br />
+                                            $Add2$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" valign="top" class="formTextSmallPrintUser">
+                                            <strong>City, State Zip:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $City$ , $State$ &nbsp; $Zip$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" valign="top" class="formTextSmallPrintUser">
+                                            <strong>Rental Company Name:</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $RentalCompany$
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                $orderDetails$
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="10px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="right" style="padding-right: 40px;">
+                                <table class="formTextSmallPrintUser">
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td colspan="2">
+                                            <hr size="-1" color="#000000" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="10px">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Sub Total($): </strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Subtotal$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Tax($):</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Tax$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Soda Deposit($):</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Soda$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Delivery Fee($):</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Fee$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>Tip($):</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Tip$
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td colspan="2">
+                                            <hr size="-1" color="#000000" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td align="right" class="formTextSmallPrintUser">
+                                            <strong>ORDER TOTAL($):</strong>
+                                        </td>
+                                        <td align="left" class="formTextSmallPrintUser">
+                                            $Total$
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="10px">
+                </td>
+            </tr>
+            <tr>
+                <td class="formTextSmallPrintUser" style="padding-left: 20px;">
+                    <strong>Be sure to be at your delivery address during the time you chose. There is a
+                        fee charged to your account if you are not present. </strong>
+                </td>
+            </tr>
+            <tr>
+                <td height="10px">
+                </td>
+            </tr>
+            <tr>
+                <td class="formTextSmallPrintUser" style="padding-left: 20px;">
+                    Thank you again for choosing &nbsp;$CmpName$,
+                </td>
+            </tr>
+            <tr>
+                <td height="10px">
+                </td>
+            </tr>
+            <tr>
+                <td class="formTextSmallPrintUser" style="padding-left: 20px;">
+                    <strong>Respectfully,</strong>
+                </td>
+            </tr>
+            <tr>
+                <td class="formTextSmallPrintUser" style="padding-left: 20px;">
+                    The&nbsp;$CmpName$&nbsp;Team
+                </td>
+            </tr>
+            <tr>
+                <td height="10px">
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
